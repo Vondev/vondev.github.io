@@ -1,0 +1,275 @@
+/* ----- CSS Reset ----- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ----- My Own CSS ----- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #33333f;
+	font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	line-height: 24pt;
+	-webkit-font-smoothing: antialiased; 
+	-apple-font-smoothing: antialiased; 
+	font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility; 
+	-webkit-font-feature-settings: "kern"; 
+	-moz-font-feature-settings: "kern"; 
+	-moz-font-feature-settings: "kern=1"; 
+	-ms-font-feature-settings: "kern"; 
+	-o-font-feature-settings: "kern"; 
+	font-feature-settings: "kern"; 
+	font-kerning: normal; 
+}
+
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/*Generic container to limit width of content*/
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	width:90%;
+}
+
+.navigation {
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 14pt;
+	width:85%;
+}
+
+.nav-logo {
+	text-decoration: none;
+}
+
+.nav-link {
+	float: right;
+	margin-left: 7%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-link:link {
+
+} 
+
+.nav-link:hover {
+	border-bottom: 3px solid #50ebbe;
+	transition: border-bottom 0.1s ease-in-out;	
+	color: #ffffff;
+} 
+
+.nav-link:active {
+	border-bottom: 3px solid #50ebbe;
+	color: #ffffff;
+} 
+
+.nav-link:visited {
+
+}
+
+.hero {
+	padding-top: 200px;
+	padding-bottom: 300px;
+	padding-left:10%;
+	text-align: left;
+	text-decoration: none;
+	line-height: 48px;
+}
+
+.hero-heading {
+	letter-spacing: -2pt;
+	font-size: 40pt;
+	font-weight: 900;
+	color: #ffffff;
+	margin-bottom: 50px;
+	max-width: 400px;
+}
+
+.hero-text {
+	margin-top: 50px;
+	font-size: 18pt;
+	font-weight: 300;
+	color: rgba(210,210,255,0.9);
+	max-width: 600px;
+}
+
+.hero-color-highlight {
+	background: linear-gradient(to right, #f7b0fe, #7fc9ff, #2effda);
+	-webkit-background-clip: text;
+	color: rgba(255,255,255,0.1);
+}
+
+.hero-white-highlight {
+	color: rgba(255,255,255,1);
+}
+
+
+/* Cards */
+
+.card {
+	margin: 0 auto;
+	overflow: hidden;
+	transition: 0.2s;
+	width: 350px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,1);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	height: 450px;
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.card-image {
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.card-text {
+	padding: 25px;
+
+}
+
+.card-text-title {
+	margin: 0 auto;
+	color: rgba(1,1,1,0.8);
+	font-size: 16pt;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.card-text-desc {
+	margin: 0 auto;
+	margin-top: 0px;
+	color: rgba(1,1,1,0.5);
+	font-size: 12pt;
+	line-height: 20pt;
+}
+
+
+/* Homepage Grid */
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 100px;
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1280px) {
+	.projects-grid {
+		display: grid;
+		grid-row-gap: 100px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+/* Phone */
+@media only screen and (max-width: 850px) {
+
+	.hero {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.hero-heading {
+		font-size: 24pt;
+		margin-bottom: 40px;
+	}
+
+	.hero-text {
+		font-size: 15pt;
+		line-height: 24pt;
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.projects-grid {
+		display: grid;
+		grid-row-gap: 50px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
