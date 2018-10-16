@@ -233,8 +233,8 @@ a {
 
 	.hero {
 		padding-left: 1%;
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 150px;
+		padding-bottom: 200px;
 	}
 
 	.hero-heading {
@@ -251,7 +251,7 @@ a {
 
 	.projects-grid {
 		display: grid;
-		grid-row-gap: 50px;
+		grid-row-gap: 100px;
 		grid-template-columns: repeat(1, 1fr);
 		width:100%;
 	}
