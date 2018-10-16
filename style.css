@@ -167,7 +167,7 @@ a {
 	transition: 0.2s;
 	width: 350px;
 	border-radius: 5px;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(245,245,255,0.95);
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	height: 450px;
