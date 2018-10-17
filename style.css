@@ -132,6 +132,7 @@ a {
 }
 
 .hero-heading {
+	display: inline-block
 	letter-spacing: -2pt;
 	font-size: 40pt;
 	font-weight: 900;
@@ -149,7 +150,7 @@ a {
 }
 
 .hero-color-highlight {
-	background: linear-gradient(to right, #f7b0fe, #7fc9ff, #2effda);
+	background: linear-gradient(to right, #f7b0fe, #7fc9ff);
 	-webkit-background-clip: text;
 	color: rgba(255,255,255,0.1);
 }
