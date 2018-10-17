@@ -132,7 +132,7 @@ a {
 }
 
 .hero-heading {
-	display: inline-block
+	display: inline-block;
 	letter-spacing: -2pt;
 	font-size: 40pt;
 	font-weight: 900;
