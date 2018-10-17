@@ -123,6 +123,7 @@ a {
 }
 
 .hero {
+	padding-top: 25vh;
 	padding-left:10%;
 	text-align: left;
 	text-decoration: none;
@@ -130,24 +131,29 @@ a {
 	height:100vh
 }
 
-.hero-tags {
-	
-}
-
 .hero-heading {
-	padding-top: 25vh;
 	display: inline-block;
 	letter-spacing: -2pt;
 	font-size: 40pt;
 	font-weight: 900;
 	color: #ffffff;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	max-width: 400px;
+}
+
+.hero-tags {
+	margin-top: 0vh;
+	font-size: 17pt;
+	font-weight: 700;
+	color: rgba(210,210,255,0.4);
+	max-width: 600px;
+	line-height: 32px;
+	margin-bottom: 25px;
 }
 
 .hero-text {
 	margin-top: 0vh;
-	font-size: 18pt;
+	font-size: 17pt;
 	font-weight: 300;
 	color: rgba(210,210,255,0.9);
 	max-width: 600px;
@@ -237,6 +243,13 @@ a {
 /* Phone */
 @media only screen and (max-width: 767px) {
 
+.navigation {
+	margin-top: 30px;
+	font-size: 13pt;
+	padding-right: 2%;
+}
+
+
 
 	.hero {
 		padding-left: 2%;
@@ -246,6 +259,10 @@ a {
 		letter-spacing: -1pt;
 		font-size: 32pt;
 		margin-bottom: 40px;
+	}
+
+	.hero-tags {
+		font-size: 14pt;
 	}
 
 	.hero-text {
