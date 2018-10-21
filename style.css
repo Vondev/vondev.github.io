@@ -200,7 +200,7 @@ a {
 }
 
 .card-text {
-	padding: 12px 20px 15px 25px
+	padding: 14px 20px 15px 25px
 
 }
 
@@ -208,7 +208,7 @@ a {
 	color: rgba(0,0,0,0.35);
 	font-size: 11pt;
 	font-weight: 700;
-	margin-bottom: 0px;
+	margin-bottom: 3px;
 }
 
 .card-text-title {
