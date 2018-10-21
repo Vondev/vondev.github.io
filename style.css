@@ -109,7 +109,7 @@ a {
 
 .nav-link:hover {
 	border-bottom: 3px solid #50ebbe;
-	transition: border-bottom 0.1s ease-in-out;	
+/*	transition: border-bottom 0.1s ease-in-out;	*/
 	color: #ffffff;
 } 
 
@@ -129,6 +129,7 @@ a {
 	text-decoration: none;
 	line-height: 48px;
 	height:100vh
+
 }
 
 .hero-heading {
@@ -199,25 +200,42 @@ a {
 }
 
 .card-text {
-	padding: 25px;
+	padding: 12px 20px 15px 25px
 
+}
+
+.card-text-tags {
+	color: rgba(0,0,0,0.35);
+	font-size: 11pt;
+	font-weight: 700;
+	margin-bottom: 0px;
 }
 
 .card-text-title {
-	margin: 0 auto;
-	color: rgba(1,1,1,0.8);
+	color: rgba(0,0,0,0.8);
 	font-size: 16pt;
-	font-weight: 500;
-	margin-bottom: 10px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.card-divider {
+	margin-left: 0 auto;
+	background: #aaa;
+    width: 20px;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .card-text-desc {
-	margin: 0 auto;
-	margin-top: 0px;
-	color: rgba(1,1,1,0.5);
+	color: rgba(0,0,0,0.55);
 	font-size: 12pt;
+	font-weight: 400;
 	line-height: 20pt;
 }
+
+
+
 
 
 /* Homepage Grid */
