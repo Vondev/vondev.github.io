@@ -109,7 +109,7 @@ a {
 
 .nav-link:hover {
 	border-bottom: 3px solid #50ebbe;
-/*	transition: border-bottom 0.1s ease-in-out;	*/
+	/*	transition: border-bottom 0.1s ease-in-out;	*/
 	color: #ffffff;
 } 
 
@@ -186,7 +186,9 @@ a {
 }
 
 .card:hover {
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+	box-shadow: 0 16px 28px rgba(0,0,0,0.25), 0 12px 10px rgba(0,0,0,0.22);
+	transform: translate(0, -8px);
 }
 
 
@@ -221,10 +223,10 @@ a {
 .card-divider {
 	margin-left: 0 auto;
 	background: #aaa;
-    width: 20px;
-    height: 4px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+	width: 20px;
+	height: 4px;
+	border-radius: 10px;
+	margin-bottom: 15px;
 }
 
 .card-text-desc {
@@ -261,11 +263,11 @@ a {
 /* Phone */
 @media only screen and (max-width: 767px) {
 
-.navigation {
-	margin-top: 30px;
-	font-size: 13pt;
-	padding-right: 2%;
-}
+	.navigation {
+		margin-top: 30px;
+		font-size: 13pt;
+		padding-right: 2%;
+	}
 
 
 
