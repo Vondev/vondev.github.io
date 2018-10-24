@@ -123,7 +123,7 @@ a {
 }
 
 .hero {
-	padding-top: 25vh;
+	padding-top: 22vh;
 	padding-left:10%;
 	text-align: left;
 	text-decoration: none;
@@ -277,7 +277,7 @@ a {
 
 	.hero-heading {
 		letter-spacing: -1pt;
-		font-size: 32pt;
+		font-size: 28pt;
 		margin-bottom: 40px;
 	}
 
