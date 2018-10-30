@@ -141,7 +141,8 @@ footer {
 	position: absolute;
 	top: 45%;
 	transform: translateY(-50%);
-	padding-left:10%;
+	padding-left: 10%;
+	padding-right: 10%;
 	text-align: left;
 	text-decoration: none;
 	line-height: 48px;
@@ -285,11 +286,12 @@ footer {
 	}
 
 	.hero {
-	min-height: 400px;
-}
+		min-height: 400px;
+	}
 
 	.hero-contents {
 		padding-left: 2%;
+		padding-right: 2%;
 	}
 
 	.hero-heading {
