@@ -133,7 +133,7 @@ footer {
 .hero {
 	position: relative;
 	height: 80vh;
-
+	min-height: 500px;
 	max-height: 1000px;
 }
 
@@ -283,6 +283,10 @@ footer {
 		font-size: 13pt;
 		padding-right: 2%;
 	}
+
+	.hero {
+	min-height: 400px;
+}
 
 	.hero-contents {
 		padding-left: 2%;
