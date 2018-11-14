@@ -134,6 +134,12 @@ h5 {
 	margin-bottom: 1em;
 }
 
+h6 {
+
+}
+
+
+
 
 
 /* General */
@@ -385,8 +391,13 @@ h5 {
 
 .project-page-large-image {
 	width: 80%;
+	max-width: 900px;
 	margin: 0 auto;
 	margin-top: 5px;
+}
+
+.project-page-large-image img {
+	width: 100%;
 }
 
 
@@ -459,6 +470,9 @@ h5 {
 	.project-page-prose {
 		padding: 20px 25px 20px 25px;
 	}
+
+
+
 }
 
 
