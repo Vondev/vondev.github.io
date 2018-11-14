@@ -56,7 +56,7 @@ body {
 	background-color: #33333f;
 	font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 12pt;
+	font-size: 14pt;
 	line-height: 24pt;
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -108,25 +108,27 @@ h2 {
 h3 {
 	font-family: "Circular Std", sans-serif;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	line-height: 0em;
 	color: #182837;
-	margin-bottom: 1em;
+	margin-bottom: 1.2em;
+	padding-top: 1em;
 }
 
 h4 {
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 1em;
 	line-height: 1.5em;
 	color: #555555;
 	margin-bottom: 1em;
+
 }
 
 h5 {
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 400;
-	font-size: 12pt;
+	font-size: 0.9em;
 	line-height: 1.5em;
 	color: #777777;
 	margin-bottom: 1em;
@@ -136,7 +138,7 @@ h5 {
 
 
 
-.container {
+.site-width-wrapper {
 	margin: 0 auto;
 	max-width: 1200px;
 	width:90%;
@@ -180,13 +182,13 @@ h5 {
 } 
 
 .nav-link:hover {
-	border-bottom: 3px solid #50ebbe;
+	box-shadow: inset 0px -3px #50ebbe;
 	/*	transition: border-bottom 0.1s ease-in-out;	*/
 	color: #ffffff;
 } 
 
 .nav-link:active {
-	border-bottom: 3px solid #50ebbe;
+	box-shadow: inset 0px -3px #50ebbe;
 	color: #ffffff;
 } 
 
@@ -364,14 +366,17 @@ h5 {
 
 
 .project-page-prose {
-	/*	padding: 20px 50px 20px 50px;*/
 	max-width: 700px;
 	margin: auto;
-	padding: 35px 50px 20px 50px;
+	padding: 20px 50px 20px 50px;
 }
 
 
-
+.project-page-large-image {
+	width: 100%;
+	margin: auto;
+	margin-top: 5px;
+}
 
 
 
@@ -388,6 +393,10 @@ h5 {
 
 /*-- Mobile --*/
 @media only screen and (max-width: 767px) {
+
+	h4 {
+		font-size: 13pt;
+	}
 
 	.navigation {
 		font-size: 13pt;
