@@ -277,6 +277,7 @@ h5 {
 	grid-row-gap: 100px;
 	width:97%;
 	margin-bottom: 200px;
+	margin: 0 auto;
 }
 
 
@@ -392,7 +393,7 @@ h5 {
 
 
 /*-- Tablet --*/
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1075px) {
 	.projects-grid {
 		display: grid;
 		grid-row-gap: 100px;
@@ -407,6 +408,10 @@ h5 {
 	h4 {
 		font-size: 13pt;
 	}
+
+/*	.site-width-limiter {
+		width:100%;
+	}*/
 
 	.navigation {
 		font-size: 13pt;
