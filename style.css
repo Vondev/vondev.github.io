@@ -136,20 +136,34 @@ h5 {
 
 
 
+/* General */
 
-
-.site-width-wrapper {
+.site-width-limiter {
 	margin: 0 auto;
 	max-width: 1200px;
 	width:90%;
 }
 
 
-.spacer {
+.spacer-small {
 	font-size: 0; 
 	height: 20px;
 	line-height: 0;
 }
+
+.spacer-medium {
+	font-size: 0; 
+	height: 35px;
+	line-height: 0;
+}
+
+.spacer-large {
+	font-size: 0; 
+	height: 50px;
+	line-height: 0;
+}
+
+/* Index Page */
 
 .navigation {
 	height: 100px;
@@ -256,10 +270,6 @@ h5 {
 .hero-white-highlight {
 	color: rgba(255,255,255,1);
 }
-
-
-
-/* Homepage Grid */
 
 .projects-grid {
 	display: grid;
@@ -373,8 +383,8 @@ h5 {
 
 
 .project-page-large-image {
-	width: 100%;
-	margin: auto;
+	width: 80%;
+	margin: 0 auto;
 	margin-top: 5px;
 }
 
