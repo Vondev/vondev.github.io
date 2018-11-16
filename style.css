@@ -56,7 +56,7 @@ body {
 	background-color: #33333f;
 	font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 12pt;
 	line-height: 24pt;
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -78,13 +78,11 @@ a {
 }
 
 footer {
-
 	padding: 50px;
 	background-color: rgba(255, 255, 255, 0.05);
 	color: #ffffff;
 	text-align: center;
 }
-
 
 
 h1 {
@@ -108,37 +106,82 @@ h2 {
 h3 {
 	font-family: "Circular Std", sans-serif;
 	font-weight: 700;
-	font-size: 1.4em;
+	font-size: 1.5em;
+	line-height: 0em;
+	color: #182837;
+	margin-bottom: 1.2em;
+	padding-top: 3em;
+}
+
+h4 {
+	font-family: "Circular Std", sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
 	line-height: 0em;
 	color: #182837;
 	margin-bottom: 1.2em;
 	padding-top: 1em;
 }
 
-h4 {
-	font-family: "Helvetica Neue", sans-serif;
-	font-weight: 400;
-	font-size: 1em;
-	line-height: 1.5em;
-	color: #555555;
-	margin-bottom: 1em;
-
-}
-
 h5 {
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 400;
-	font-size: 0.9em;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	color: #444444;
+	margin-bottom: 1em;
+}
+
+h6 {
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
 	line-height: 1.5em;
 	color: #777777;
 	margin-bottom: 1em;
 }
 
-h6 {
 
+
+
+blockquote {
+	font-family: "Helvetica Neue", sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #444444;
+	margin-bottom: 1em;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 
 
+
+
+img {
+	width: 100%;
+}
 
 
 
@@ -279,11 +322,11 @@ h6 {
 
 .projects-grid {
 	display: grid;
+	margin: 0 auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-row-gap: 100px;
 	width:97%;
 	margin-bottom: 200px;
-	margin: 0 auto;
 }
 
 
@@ -381,23 +424,21 @@ h6 {
 	background-color: #ffffff;
 }
 
-
 .project-page-prose {
 	max-width: 700px;
 	margin: auto;
-	padding: 20px 50px 20px 50px;
 }
 
+.project-page-image {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
-.project-page-large-image {
-	width: 80%;
-	max-width: 900px;
+.project-page-wide-image {
+	width: 90%;
+	max-width: 750px;
 	margin: 0 auto;
-	margin-top: 5px;
-}
 
-.project-page-large-image img {
-	width: 100%;
 }
 
 
@@ -416,13 +457,6 @@ h6 {
 /*-- Mobile --*/
 @media only screen and (max-width: 767px) {
 
-	h4 {
-		font-size: 13pt;
-	}
-
-/*	.site-width-limiter {
-		width:100%;
-	}*/
 
 	.navigation {
 		font-size: 13pt;
@@ -468,10 +502,16 @@ h6 {
 	}
 
 	.project-page-prose {
-		padding: 20px 25px 20px 25px;
+		margin: 20px 25px 20px 25px;
 	}
 
-
+	.project-page-wide-image {
+		padding: 0px 25px 0px 25px;
+		width: 100%;
+		max-width: 900px;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
 
 }
 
