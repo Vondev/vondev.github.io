@@ -54,10 +54,12 @@ table {
 
 body {
 	background-color: #33333f;
-	font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
-	font-size: 12pt;
-	line-height: 24pt;
+	font-size: 14pt;
+	line-height: 2em;
+	color: #444444;
+
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
 	font-smoothing: antialiased; 
@@ -84,9 +86,13 @@ footer {
 	text-align: center;
 }
 
+p {
+	margin-bottom: 1em;
+}
+
 
 h1 {
-	font-family: "Circular Std", sans-serif;
+	font-family: "Circular Std";
 	font-weight: 700;
 	font-size: 1.5em;
 	line-height: 0.75em;
@@ -95,16 +101,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Circular Std", sans-serif;
-	font-weight: 400;
-	font-size: 1.125em;
-	line-height: 1.625em;
-	color: #ffffff;
-	margin-bottom: 1em;
-}
-
-h3 {
-	font-family: "Circular Std", sans-serif;
+	font-family: "Circular Std";
 	font-weight: 700;
 	font-size: 1.5em;
 	line-height: 0em;
@@ -113,8 +110,8 @@ h3 {
 	padding-top: 3em;
 }
 
-h4 {
-	font-family: "Circular Std", sans-serif;
+h3 {
+	font-family: "Circular Std";
 	font-weight: 400;
 	font-size: 1.1em;
 	line-height: 0em;
@@ -123,8 +120,7 @@ h4 {
 	padding-top: 1em;
 }
 
-h5 {
-	font-family: "Helvetica Neue", sans-serif;
+h4 {
 	font-weight: 400;
 	font-size: 1.1em;
 	line-height: 1.6em;
@@ -132,8 +128,7 @@ h5 {
 	margin-bottom: 1em;
 }
 
-h6 {
-	font-family: "Helvetica Neue", sans-serif;
+h5 {
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -141,11 +136,18 @@ h6 {
 	margin-bottom: 1em;
 }
 
+h6 {
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #aaaaaa;
+	margin-bottom: 1em;
+}
+
 
 
 
 blockquote {
-	font-family: "Helvetica Neue", sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -215,6 +217,7 @@ img {
 /* Index Page */
 
 .navigation {
+	font-family: "Circular Std";
 	height: 100px;
 	margin: 0 auto;
 	max-width: 1200px;
@@ -260,6 +263,7 @@ img {
 }
 
 .hero {
+	font-family: "Circular Std";
 	position: relative;
 	height: 80vh;
 	min-height: 500px;
@@ -335,6 +339,10 @@ img {
 /* Index Cards */
 
 .card {
+	font-family: "Circular Std";
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 2em;
 	margin: 0 auto;
 	overflow: hidden;
 	transition: 0.2s;
