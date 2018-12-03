@@ -56,9 +56,9 @@ body {
 	background-color: #33333f;
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 12pt;
 	line-height: 2em;
-	color: #444444;
+	color: #333333;
 
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -87,6 +87,7 @@ footer {
 }
 
 p {
+	font-size: 1.1em;
 	margin-bottom: 1em;
 }
 
@@ -165,6 +166,7 @@ ul {
 }
 
 li {
+	font-size: 1.1em;
 	padding-left: 20px;
 	margin-bottom: 20px;
 }
@@ -433,7 +435,7 @@ img {
 }
 
 .project-page-prose {
-	max-width: 700px;
+	max-width: 650px;
 	margin: auto;
 }
 
@@ -449,6 +451,13 @@ img {
 
 }
 
+
+.project-page-full-image {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
 
 
 
