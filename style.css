@@ -216,6 +216,17 @@ img {
 	line-height: 0;
 }
 
+.highlight-one {
+	color: #777788;
+	font-size: 0.9em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.more-padding-bottom {
+	padding-bottom: 20px;
+}
+
 /* Index Page */
 
 .navigation {
@@ -440,23 +451,33 @@ img {
 }
 
 .project-page-image {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	max-width: 650px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-.project-page-wide-image {
+.wide-image {
 	width: 90%;
 	max-width: 750px;
 	margin: 0 auto;
-
 }
 
 
-.project-page-full-image {
+.wider-image {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
+.full-width-image {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 
