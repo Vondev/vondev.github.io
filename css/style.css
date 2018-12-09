@@ -491,17 +491,25 @@ hr {
 }
 
 .border-single {
-    border: 1px solid #cccccc;
-    padding: 0px;
+	border: 1px solid #cccccc;
+	padding: 0px;
+	border-radius: 3px;
 }
 
 .border-double {
 	border: 1px solid #cccccc;
 	padding: 2px;
+	border-radius: 3px;
 }
 
 .border-rounded {
 	border-radius: 20px;
+}
+
+.border-single-thick {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	border-radius: 3px;
 }
 
 
@@ -513,8 +521,8 @@ hr {
 }
 
 .carousel-cell {
-  width: 50%;
-  margin-right: 10px;
+	width: 50%;
+	margin-right: 10px;
 }
 
 .carousel-cell img {
@@ -617,6 +625,13 @@ hr {
 	.spacer-section {
 		height: 50px;
 	}
+
+
+
+	.border-rounded {
+		border-radius: 10px;
+	}
+
 
 }
 
