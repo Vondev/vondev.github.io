@@ -117,7 +117,6 @@ h3 {
 	line-height: 1.6em;
 	color: #182837;
 	margin-bottom: 0.5em;
-	padding-top: 1em;
 }
 
 h4 {
@@ -617,13 +616,13 @@ hr {
 	}
 
 	.project-page-prose {
-		margin: 20px 14px 20px 14px;
+		margin: 20px 20px 20px 20px;
 	}
 
 
 	.wide-image {
 		margin: 0 auto;
-		padding: 0px 14px 0px 14px;
+		padding: 0px 20px 0px 20px;
 		width: 100%;
 	}
 
@@ -643,6 +642,12 @@ hr {
 		height: 50px;
 	}
 
+	.section-divider {
+		padding-top: 50px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 
 	.border-rounded {
