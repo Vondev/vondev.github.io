@@ -107,7 +107,7 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 40px;
+	margin-bottom: 1.5em;
 }
 
 h3 {
@@ -116,6 +116,7 @@ h3 {
 	font-size: 1.25em;
 	line-height: 1.6em;
 	color: #182837;
+	margin-top: 2em;
 	margin-bottom: 0.5em;
 }
 
@@ -181,7 +182,7 @@ q:before, q:after {
 hr {
 	border: 0px;
 	height: 1px;
-	background-color: #cccccc;
+	background-color: #dddddd;
 }
 
 
@@ -214,8 +215,8 @@ hr {
 
 .section-divider {
 	margin: auto;
-	padding-top: 100px;
-	padding-bottom: 40px;
+	margin-top: 100px;
+	margin-bottom: 30px;
 	max-width: 700px;
 }
 
@@ -643,10 +644,10 @@ hr {
 	}
 
 	.section-divider {
-		padding-top: 50px;
-		padding-bottom: 0px;
-		padding-left: 20px;
-		padding-right: 20px;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 
