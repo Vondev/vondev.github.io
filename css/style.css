@@ -88,7 +88,7 @@ footer {
 
 p {
 	font-size: 1.1em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -107,7 +107,7 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 h3 {
@@ -116,14 +116,14 @@ h3 {
 	font-size: 1.25em;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 1.2em;
+	margin-bottom: 0.5em;
 	padding-top: 1em;
 }
 
 h4 {
 	font-weight: 400;
 	font-size: 1.1em;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #444444;
 	margin-bottom: 1em;
 }
@@ -147,12 +147,13 @@ h6 {
 
 
 
-blockquote {
+blockquote, q {
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.2em;
 	line-height: 1.6em;
 	color: #444444;
+	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
@@ -179,7 +180,6 @@ q:before, q:after {
 }
 
 hr {
-	margin-top: 100px;
 	border: 0px;
 	height: 1px;
 	background-color: #cccccc;
@@ -213,11 +213,29 @@ hr {
 	height: 150px;
 }
 
+.section-divider {
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	max-width: 700px;
+}
+
 .highlight-one {
 	color: #777788;
 	font-size: 0.9em;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.highlight-two {
+	color: #0fd2ae;
+/*	font-size: 1.2em;*/
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: 600;
 }
 
 .more-padding-bottom {
@@ -471,23 +489,20 @@ hr {
 	margin: 0 auto;
 }
 
-
-
-
 .wider-image {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .full-width-image {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .border-single {
@@ -511,6 +526,8 @@ hr {
 	padding: 10px;
 	border-radius: 3px;
 }
+
+
 
 
 
@@ -552,7 +569,7 @@ hr {
 @media only screen and (max-width: 767px) {
 
 	body {
-		font-size: 10.5pt;
+		font-size: 11pt;
 	}
 
 
