@@ -54,7 +54,7 @@ table {
 
 body {
 	background-color: #33333f;
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
 	line-height: 2em;
@@ -87,7 +87,7 @@ footer {
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-bottom: 0.5em;
 }
 
@@ -217,7 +217,7 @@ hr {
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 30px;
-	max-width: 700px;
+	max-width: 650px;
 }
 
 .highlight-one {
@@ -461,12 +461,12 @@ hr {
 }
 
 .project-page-prose {
-	max-width: 700px;
+	max-width: 650px;
 	margin: auto;
 }
 
 .project-page-prose li {
-	font-size: 1.1em;
+	font-size: 1em;
 	padding-left: 10px;
 	margin-bottom: 20px;
 }
@@ -474,7 +474,7 @@ hr {
 
 .project-page-image {
 	margin: 0 auto;
-	max-width: 700px;
+	max-width: 650px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
