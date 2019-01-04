@@ -107,7 +107,7 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.8em;
 }
 
 h3 {
@@ -125,7 +125,7 @@ h4 {
 	font-size: 1.1em;
 	line-height: 1.5em;
 	color: #444444;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 h5 {
@@ -133,7 +133,7 @@ h5 {
 	font-size: 1em;
 	line-height: 1.5em;
 	color: #777777;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 h6 {
@@ -141,7 +141,7 @@ h6 {
 	font-size: 1em;
 	line-height: 1.5em;
 	color: #aaaaaa;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -216,7 +216,7 @@ hr {
 .section-divider {
 	margin: auto;
 	margin-top: 100px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	max-width: 650px;
 }
 
@@ -518,13 +518,24 @@ hr {
 }
 
 .border-rounded {
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .border-single-thick {
 	border: 1px solid #cccccc;
 	padding: 10px;
 	border-radius: 3px;
+}
+
+
+.image-grid {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 100px;
+	grid-column-gap: 50px;
+	width:100%
+	margin-bottom: 200px;
 }
 
 
@@ -645,14 +656,19 @@ hr {
 
 	.section-divider {
 		margin-top: 50px;
-		margin-bottom: 10px;
+		margin-bottom: 25px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
 
 
 	.border-rounded {
-		border-radius: 10px;
+		border-radius: 5px;
+	}
+
+
+	.image-grid {
+		grid-template-columns: repeat(1, 1fr);
 	}
 
 
