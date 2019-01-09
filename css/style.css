@@ -57,8 +57,8 @@ body {
 	font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
-	line-height: 2em;
-	color: #333333;
+	line-height: 2.1em;
+	color: #222222;
 
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -87,8 +87,8 @@ footer {
 }
 
 p {
-	font-size: 1em;
-	margin-bottom: 0.5em;
+	font-size: 1.1em;
+	margin-bottom: 1.5em;
 }
 
 
@@ -107,7 +107,7 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 0.8em;
+	margin-bottom: 1em;
 }
 
 h3 {
@@ -217,7 +217,7 @@ hr {
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 50px;
-	max-width: 650px;
+	max-width: 700px;
 }
 
 .highlight-one {
@@ -236,6 +236,10 @@ hr {
 
 .bold {
 	font-weight: 600;
+}
+
+.italic {
+	font-style: italic;
 }
 
 .more-padding-bottom {
@@ -461,12 +465,12 @@ hr {
 }
 
 .project-page-prose {
-	max-width: 650px;
+	max-width: 700px;
 	margin: auto;
 }
 
 .project-page-prose li {
-	font-size: 1em;
+	font-size: 1.1em;
 	padding-left: 10px;
 	margin-bottom: 20px;
 }
@@ -474,13 +478,19 @@ hr {
 
 .project-page-image {
 	margin: 0 auto;
-	max-width: 650px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	max-width: 700px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 .project-page-image img {
 	width: 100%;
+}
+
+.small-image {
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
 }
 
 .wide-image {
@@ -493,16 +503,16 @@ hr {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .full-width-image {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 75px;
+	padding-bottom: 70px;
 }
 
 .border-single {
@@ -544,20 +554,30 @@ hr {
 
 /* Carousel */
 
-.carousel {
+.carousel-medium {
 
 }
 
 .carousel-cell {
-	width: 50%;
-	margin-right: 10px;
+	width: 250px;
+	margin-right: 50px;
 }
 
 .carousel-cell img {
+	height: 100%;
 	width: 100%;
 }
 
+.caption {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.7em;
+}
 
+.flickity-page-dots {
+  bottom: -50px;
+}
 
 
 
