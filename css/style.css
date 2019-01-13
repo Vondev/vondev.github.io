@@ -79,6 +79,14 @@ a {
 	color: #ffffff;
 }
 
+b, strong {
+	font-weight: bold;
+} 
+
+i, em {
+	font-style: italic;
+}
+
 footer {
 	padding: 50px;
 	background-color: rgba(255, 255, 255, 0.05);
@@ -489,6 +497,12 @@ hr {
 	margin: 0 auto;
 }
 
+.regular-limiter {
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+
 .wide-limiter {
 	width: 100%;
 	max-width: 850px;
@@ -499,8 +513,6 @@ hr {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .border-single {
@@ -526,15 +538,33 @@ hr {
 }
 
 
-.image-grid-3 {
+
+
+.grid-item {
+	margin: 0 auto;
+}
+
+.grid-item img {
+	width: 100%;
+}
+
+.image-grid-3-1 {
 	display: grid;
 	margin: 0 auto;
 	grid-template-columns: repeat(3, 1fr);
-	grid-row-gap: 100px;
-	grid-column-gap: 50px;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
 	margin-bottom: 200px;
 }
 
+.image-grid-3-2 {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	margin-bottom: 200px;
+}
 
 
 .app-icon {
@@ -675,8 +705,12 @@ hr {
 	}
 
 
-	.image-grid-3 {
+	.image-grid-3-1 {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.image-grid-3-2 {
+		grid-template-columns: repeat(2, 1fr);
 	}
 
 
