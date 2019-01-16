@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>PioneersAppLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FF4747" offset="0%"></stop>
+            <stop stop-color="#FF9881" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PioneersAppLogo">
+            <g id="App-Icon-60-x-60" transform="translate(0.245902, 0.000000)" fill="url(#linearGradient-1)">
+                <rect id="App-Icon" x="0" y="0" width="60" height="60" rx="13.5"></rect>
+            </g>
+            <g id="PioneersLogo" transform="translate(8.360656, 12.000000)" fill="#FFFFFF" fill-opacity="0.5">
+                <polygon id="Rectangle-2" points="21.147541 10 42.295082 18.5 21.147541 27 0 18.5"></polygon>
+                <path d="M21.147541,23 C27.3946964,23 32.4590164,20.9852814 32.4590164,18.5 C32.4590164,16.0147186 27.3946964,14 21.147541,14 C14.9003856,14 9.83606557,16.0147186 9.83606557,18.5 C9.83606557,20.9852814 14.9003856,23 21.147541,23 Z" id="Oval"></path>
+                <path d="M21.147541,32 C27.3946964,32 32.4590164,29.9852814 32.4590164,27.5 C32.4590164,25.0147186 27.3946964,23 21.147541,23 C14.9003856,23 9.83606557,25.0147186 9.83606557,27.5 C9.83606557,29.9852814 14.9003856,32 21.147541,32 Z" id="Oval"></path>
+                <rect id="Rectangle-3" x="20.6557377" y="0" width="1" height="19"></rect>
+                <polygon id="Triangle" points="33.442623 9.99999895 21.6393443 10 21.6393443 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
