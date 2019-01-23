@@ -579,6 +579,15 @@ hr {
 	margin-bottom: 200px;
 }
 
+.image-grid-3 {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	margin-bottom: 200px;
+}
+
 
 .overview-grid {
 	display: grid;
@@ -774,6 +783,10 @@ hr {
 
 
 	.image-grid-3 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.image-grid-2 {
 		grid-template-columns: repeat(1, 1fr);
 	}
 
