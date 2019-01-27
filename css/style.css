@@ -500,6 +500,19 @@ hr {
 	width: 100%;
 }
 
+.project-page-video {
+	margin: 0 auto;
+	max-width: 750px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.project-page-video iframe {
+	width: 100%;
+}
+
+
+
 
 
 .narrower-limiter {
