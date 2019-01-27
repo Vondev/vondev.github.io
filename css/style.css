@@ -253,9 +253,6 @@ hr {
 	font-style: italic;
 }
 
-.more-padding-bottom {
-	padding-bottom: 20px;
-}
 
 /* Index Page */
 
@@ -487,6 +484,10 @@ hr {
 	margin-bottom: 20px;
 }
 
+.project-page-compact-list li {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
 
 .project-page-image {
 	margin: 0 auto;
@@ -579,7 +580,7 @@ hr {
 	margin-bottom: 200px;
 }
 
-.image-grid-3 {
+.image-grid-2 {
 	display: grid;
 	margin: 0 auto;
 	grid-template-columns: repeat(2, 1fr);
