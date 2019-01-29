@@ -226,13 +226,13 @@ hr {
 }
 
 .highlight-2 {
-	color: #18D2AB;
+	color: #777788;
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .highlight-3 {
-	color: #18D2AB;
+	color: #777788;
 	font-size: 0.9em;
 	font-weight: 700;
 	font-style: italic;
@@ -638,7 +638,7 @@ hr {
 
 
 .anchor-link {
-	color: #18D2AB;
+	color: #3AB8B3;
 }
 
 .anchor-link:hover {
