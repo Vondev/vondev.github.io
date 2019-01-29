@@ -256,6 +256,11 @@ hr {
 
 /* Index Page */
 
+.gradient-bar {
+	height: 3px;
+	background: linear-gradient(to right, #4E90F4, #2FFEDB, #FFAEFC, #FFCD7F);
+}
+
 .navigation {
 	font-family: "Circular Std";
 	height: 100px;
