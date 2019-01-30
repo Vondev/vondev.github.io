@@ -113,9 +113,10 @@ h2 {
 	font-family: "Circular Std";
 	font-weight: 700;
 	font-size: 1.70em;
+	letter-spacing: -0.25pt;
 	line-height: 1.6em;
 	color: #182837;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 h3 {
@@ -157,7 +158,7 @@ h6 {
 blockquote, q {
 	font-style: italic;
 	font-weight: 400;
-	font-size: 1.0em;
+	font-size: 1.1em;
 	line-height: 1.6em;
 	color: #444444;
 	margin-top: 1em;
@@ -256,8 +257,8 @@ hr {
 
 /* Index Page */
 
-.gradient-bar {
-	height: 3px;
+.decorative-bar {
+	height: 0px;
 	background: linear-gradient(to right, #4E90F4, #2FFEDB, #FFAEFC, #FFCD7F);
 }
 
@@ -718,7 +719,7 @@ hr {
 @media only screen and (max-width: 767px) {
 
 	body {
-		font-size: 11pt;
+		font-size: 12.5pt;
 	}
 
 	.site-width-limiter {
@@ -735,8 +736,8 @@ hr {
 	}
 
 	.hero-contents {
-		padding-left: 2%;
-		padding-right: 2%;
+		padding-left: 8%;
+		padding-right: 8%;
 		border: 0px;
 	}
 
