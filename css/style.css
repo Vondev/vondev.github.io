@@ -198,11 +198,6 @@ hr {
 
 /* General */
 
-.site-width-limiter {
-	margin: 0 auto;
-	max-width: 1920px;
-}
-
 .spacer { 
 	height: 50px;
 }
@@ -513,34 +508,43 @@ hr {
 	margin-bottom: 35px;
 }
 
-/*.project-page-video iframe {
-	width: 100%;
-}*/
 
-.narrower-limiter {
+.width-limiter-1920 {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.width-limiter-1200 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.width-limiter-narrower {
 	max-width: 450px;
 	margin: 0 auto;
 }
 
-.narrow-limiter {
+.width-limiter-narrow {
 	max-width: 600px;
 	margin: 0 auto;
 }
 
-.regular-limiter {
+.width-limiter-regular {
 	max-width: 750px;
 	margin: 0 auto;
 }
 
-.wide-limiter {
+.width-limiter-wide {
 	max-width: 850px;
 	margin: 0 auto;
 }
 
-.wider-limiter {
+.width-limiter-wider {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 
 .width-limiter-350 {
 	max-width: 350px;
@@ -695,7 +699,7 @@ hr {
 
 .flickity-page-dots {
   top: 25px;
-  bottom: 100%;
+  bottom: 95%;
 }
 
 .carousel-nav .carousel-cell.is-nav-selected {
@@ -707,7 +711,7 @@ hr {
 	color: #ffffff;
 }
 
-	/* white circles */
+
 .carousel-dark .flickity-page-dots .dot {
 	  width: 12px;
 	  height: 12px;
@@ -715,7 +719,7 @@ hr {
 	  background: transparent;
 	  border: 2px solid white;
 	}
-	/* fill-in selected dot */
+
 .carousel-dark .flickity-page-dots .dot.is-selected {
 	  background: white;
 }
@@ -743,7 +747,7 @@ hr {
 		font-size: 13pt;
 	}
 
-	.site-width-limiter {
+	.width-limiter-1920 {
 		width: 100%;
 	}
 
