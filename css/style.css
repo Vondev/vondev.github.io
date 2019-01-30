@@ -56,9 +56,9 @@ body {
 	background-color: #33333f;
 	font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
-	font-size: 12.5pt;
+	font-size: 13pt;
 	line-height: 1.7em;
-	color: #222222;
+	color: #333333;
 
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -138,7 +138,7 @@ h4 {
 
 h5 {
 	font-weight: 700;
-	font-size: 1.0em;
+	font-size: 1.1em;
 	line-height: 1.5em;
 	color: #444444;
 	margin-bottom: 0.5em;
@@ -227,9 +227,9 @@ hr {
 }
 
 .highlight-2 {
-	color: #777788;
-	font-size: 1.2em;
-	font-weight: 700;
+	color: #9999aa;
+	font-size: 1.1em;
+	font-weight: 300;
 }
 
 .highlight-3 {
@@ -497,6 +497,7 @@ hr {
 
 .project-page-image {
 	margin: 0 auto;
+	text-align: center;
 	max-width: 750px;
 	margin-top: 35px;
 	margin-bottom: 35px;
@@ -517,62 +518,73 @@ hr {
 	width: 100%;
 }*/
 
-
-
-
-
 .narrower-limiter {
-	width: 100%;
 	max-width: 450px;
 	margin: 0 auto;
 }
 
 .narrow-limiter {
-	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
 }
 
 .regular-limiter {
-	width: 100%;
 	max-width: 750px;
 	margin: 0 auto;
 }
 
 .wide-limiter {
-	width: 100%;
 	max-width: 850px;
 	margin: 0 auto;
 }
 
 .wider-limiter {
-	width: 100%;
 	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.width-limiter-350 {
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.width-limiter-300 {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.width-limiter-250 {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.width-limiter-200 {
+	max-width: 200px;
 	margin: 0 auto;
 }
 
 
 .width-limiter-150 {
-	width: 50%;
 	max-width: 150px;
+	margin: 0 auto;
 }
 
 .width-limiter-25 {
-	width: 20%;
 	max-width: 25px;
+	margin: 0 auto;
 }
 
 
 
 
 .border-single {
-	border: 1px solid #cccccc;
+	border: 1px solid #dddddd;
 	padding: 0px;
 	border-radius: 3px;
 }
 
 .border-double {
-	border: 1px solid #cccccc;
+	border: 1px solid #dddddd;
 	padding: 2px;
 	border-radius: 3px;
 }
@@ -582,7 +594,7 @@ hr {
 }
 
 .border-single-thick {
-	border: 1px solid #cccccc;
+	border: 1px solid #dddddd;
 	padding: 10px;
 	border-radius: 3px;
 }
@@ -618,10 +630,6 @@ hr {
 
 .grid-item img {
 	width: 100%;
-}
-
-.grid-item-1-2 {
-
 }
 
 
@@ -769,17 +777,13 @@ hr {
 		height: 300px;
 	}
 
-	.project-page-prose {
+	.project-page-prose, .caption, .project-page-image {
 		margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
 
-
-	.project-page-image {
-		width: 90%;
-	}
 
 	.spacer {
 		height: 25px;
