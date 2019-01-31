@@ -121,7 +121,7 @@ h2 {
 
 h3 {
 	font-weight: 700;
-	font-size: 1.3em;
+	font-size: 1.25em;
 	line-height: 1.6em;
 	color: #182837;
 	margin-top: 2em;
@@ -646,8 +646,8 @@ hr {
 
 
 .overview-grid {
-	grid-template-columns: 60% 25%;
-	grid-column-gap: 15%;
+	grid-template-columns: 65% 30%;
+	grid-column-gap: 5%;
 }
 
 
