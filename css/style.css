@@ -622,20 +622,18 @@ hr {
 .base-grid {
 	display: grid;
 	margin: 0 auto;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	margin-bottom: 50px;
 }
 
 .image-grid-3 {
 	grid-template-columns: repeat(3, 1fr);
-	grid-row-gap: 10px;
-	grid-column-gap: 10px;
-	margin-bottom: 100px;
 }
 
 .image-grid-2 {
 	grid-template-columns: repeat(2, 1fr);
-	grid-row-gap: 20px;
-	grid-column-gap: 20px;
-	margin-bottom: 100px;
+
 }
 
 
