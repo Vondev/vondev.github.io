@@ -456,17 +456,40 @@ hr {
 
 .project-page {
 	background-color: #ffffff;
-	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
 .project-page-banner {
 	width: 100%;
-	height: 650px;
+	height: 55vw;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+
+.project-page-overview {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: #f2f2f8;
+	margin-bottom: 20px;
+}
+
+.project-page-tags {
+	margin-bottom: 20px;
+	font-family: "Circular Std";
+	font-size: 13pt;
+	color: rgba(0,0,0,0.35);
+}
+
+.project-page-title {
+	margin-bottom: 25px;
+}
+
+.project-page-desc {
+	margin-top: 25px;
+}
+
+
 
 .content-column {
 	max-width: 750px;
@@ -483,7 +506,7 @@ hr {
 
 .compact-list li {
 	margin-top: 0px;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.25em;
 }
 
 .image-wrapper {
@@ -766,13 +789,33 @@ hr {
 
 	h3 {
 		font-size: 1.2em;
+		margin-top: 15px;
+		margin-bottom: 10px;
 	}
 
 	.project-page {
 		background-color: #ffffff;
-		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
+	.project-page-overview {
+
+	}
+
+	.project-page-tags {
+		font-size: 12pt;
+		margin-bottom: 12px;
+	}
+
+	.project-page-title {
+		margin-bottom: 25px;
+	}
+
+	.project-page-desc {
+		margin-top: 25px;
+	}
+
+
 
 	.navigation {
 		font-size: 13pt;
@@ -814,13 +857,12 @@ hr {
 	}
 
 	.project-page-banner {
-		height: 300px;
+
 	}
 
 	.content-column {
 		width: 90%;
 	}
-
 
 	.spacer {
 		height: 25px;
