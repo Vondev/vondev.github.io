@@ -489,8 +489,8 @@ hr {
 .image-wrapper {
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .image-wrapper img {
@@ -624,7 +624,6 @@ hr {
 	margin: 0 auto;
 	grid-row-gap: 20px;
 	grid-column-gap: 20px;
-	margin-bottom: 50px;
 }
 
 .image-grid-3 {
@@ -851,6 +850,10 @@ hr {
 
 	.grid-mobile-2 {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.video-wrapper iframe {
+		height: 200px;
 	}
 
 
