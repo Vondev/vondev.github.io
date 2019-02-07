@@ -267,18 +267,30 @@ hr {
 
 .dark-theme h1, h2, h3, h4, h5, h6 {
 	font-family: "Circular Std";
-	color: #aaaabb;
+	color: #777788;
+}
+
+.dark-theme a {
+	color: #50ebbe;
 }
 
 .dark-theme p {
 	color: #ddddee;
 	font-size: 14pt;
+	line-height: 2em;
 }
 
 .dark-theme b {
 	font-weight: 900;
 	color: #ffffff;
 }
+
+.dark-theme .fab, .fas {
+	color: #50ebbe;
+	padding-right: 1em;
+}
+
+
 
 
 
