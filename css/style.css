@@ -93,12 +93,7 @@ i, em {
 	font-style: italic;
 }
 
-footer {
-	padding: 50px;
-	background-color: #33333f;
-	color: #aaaabb;
-	text-align: center;
-}
+
 
 p {
 	font-size: 1.0em;
@@ -200,6 +195,20 @@ hr {
 }
 
 
+footer {
+	padding: 50px;
+	background-color: #33333f;
+	color: #aaaabb;
+	text-align: center;
+	font-size: 0.85em;
+	font-weight: 500;
+}
+
+footer .fab, footer .fas{
+	color: #aaaabb;
+	padding: 0.5em;
+}
+
 
 
 /* General */
@@ -265,7 +274,12 @@ hr {
 	font-style: italic;
 }
 
-.dark-theme h1, h2, h3, h4, h5, h6 {
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5, 
+.dark-theme h6 {
 	font-family: "Circular Std";
 	color: #777788;
 }
@@ -285,10 +299,11 @@ hr {
 	color: #ffffff;
 }
 
-.dark-theme .fab, .fas {
+.dark-theme .fab, .dark-theme .fas {
 	color: #50ebbe;
 	padding-right: 1em;
 }
+
 
 
 
