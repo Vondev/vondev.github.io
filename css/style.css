@@ -75,9 +75,15 @@ body {
 
 
 a {
+	font-weight: 700;
 	text-decoration: none;
-	color: #ffffff;
+	color: #3AB8B3;
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
 
 b, strong {
 	font-weight: bold;
@@ -89,8 +95,8 @@ i, em {
 
 footer {
 	padding: 50px;
-	background-color: rgba(255, 255, 255, 0.05);
-	color: #ffffff;
+	background-color: #33333f;
+	color: #aaaabb;
 	text-align: center;
 }
 
@@ -111,11 +117,11 @@ h1 {
 
 h2 {
 	font-family: "Circular Std";
-	font-weight: 700;
-	font-size: 1.60em;
-	letter-spacing: -0.35pt;
+	font-weight: 900;
+	font-size: 1.9em;
+	letter-spacing: -0.015em;
 	line-height: 1.6em;
-	color: #182837;
+	color: #bbbbbf;
 	margin-bottom: 1em;
 }
 
@@ -202,6 +208,10 @@ hr {
 	height: 50px;
 }
 
+.spacer-small { 
+	height: 25px;
+}
+
 .spacer-section { 
 	height: 150px;
 }
@@ -240,6 +250,13 @@ hr {
 	text-transform: uppercase;
 }
 
+.highlight-5 {
+	color: #aaaabb;
+	font-size: 0.9em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 .bold {
 	font-weight: 600;
 }
@@ -263,6 +280,12 @@ hr {
 	max-width: 1200px;
 	width:85%;
 	font-size: 13pt;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: inherit;
 }
 
 .nav-logo {
@@ -482,6 +505,8 @@ hr {
 }
 
 .project-page-title {
+	font-weight: 700;
+	color: #33333f;
 	margin-bottom: 25px;
 }
 
@@ -490,6 +515,18 @@ hr {
 	color: #555555
 }
 
+.table-of-contents {
+	display: inline-block;
+	border: 1px solid #dddddd;
+	padding: 25px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+/*.table-of-contents a {
+	color: #50ebbe;
+}
+*/
 
 
 .content-column {
@@ -503,6 +540,11 @@ hr {
 	margin-bottom: 20px;
 }
 
+
+
+.indent-medium {
+	padding-left: 1.5em;
+}
 
 
 .compact-list li {
@@ -689,11 +731,11 @@ hr {
 
 
 .anchor-link {
-	color: #3AB8B3;
+
 }
 
 .anchor-link:hover {
-	text-decoration: underline;
+
 }
 
 
@@ -785,11 +827,11 @@ hr {
 @media only screen and (max-width: 767px) {
 
 	body {
-		font-size: 13pt;
+		font-size: 12pt;
 	}
 
 	h2 {
-		font-size: 1.4em;
+		font-size: 1.75em;
 	}
 
 	h3 {
@@ -871,6 +913,10 @@ hr {
 
 	.spacer {
 		height: 25px;
+	}
+
+	.spacer-small {
+		height: 15px;
 	}
 
 	.spacer-section {
