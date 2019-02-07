@@ -265,6 +265,23 @@ hr {
 	font-style: italic;
 }
 
+.dark-theme h1, h2, h3, h4, h5, h6 {
+	font-family: "Circular Std";
+	color: #aaaabb;
+}
+
+.dark-theme p {
+	color: #ddddee;
+	font-size: 14pt;
+}
+
+.dark-theme b {
+	font-weight: 900;
+	color: #ffffff;
+}
+
+
+
 
 /* Index Page */
 
@@ -704,6 +721,11 @@ hr {
 
 .overview-grid {
 	grid-template-columns: 65% 30%;
+	grid-column-gap: 5%;
+}
+
+.about-grid {
+	grid-template-columns: 40% 55%;
 	grid-column-gap: 5%;
 }
 
