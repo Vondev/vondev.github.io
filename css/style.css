@@ -404,7 +404,7 @@ footer .fab, footer .fas{
 }
 
 .hero-heading {
-	width: 300px;
+	width: 350px;
 	display: inline-block;
 	margin-bottom: 25px;
 }
@@ -930,8 +930,8 @@ footer .fab, footer .fas{
 	}
 
 	.hero-contents {
-		padding-left: 8%;
-		padding-right: 8%;
+/*		padding-left: 8%;
+		padding-right: 8%;*/
 		border: 0px;
 	}
 
