@@ -377,7 +377,7 @@ footer .fab, footer .fas{
 
 .hero-contents {
 	margin: 0 auto;
-	margin-top: 75px;
+	margin-top: 100px;
 	margin-bottom: 150px;
 	font-family: "Circular Std";
 	text-align: center;
@@ -386,7 +386,7 @@ footer .fab, footer .fas{
 }
 
 .hero-heading {
-	width: 350px;
+	width: 300px;
 	display: inline-block;
 	margin-bottom: 25px;
 }
@@ -404,7 +404,7 @@ footer .fab, footer .fas{
 	color: rgba(210,210,255,0.30);
 	margin: 0 auto;
 	max-width: 600px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .hero-text {
