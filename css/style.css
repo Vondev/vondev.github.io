@@ -391,11 +391,11 @@ footer .fab, footer .fas{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-65%);
-/*	padding-left: 10%;
-padding-right: 10%;*/
-text-align: left;
-text-decoration: none;
-line-height: 48px;
+	/*	padding-left: 10%;
+	padding-right: 10%;*/
+	text-align: left;
+	text-decoration: none;
+	line-height: 48px;
 	/*	margin-left: 4%;
 	margin-right: 4%;
 	padding-left: 8%;
@@ -404,7 +404,7 @@ line-height: 48px;
 }
 
 .hero-heading {
-	width: 300px;
+	width: 250px;
 	display: inline-block;
 	margin-bottom: 25px;
 }
