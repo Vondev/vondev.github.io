@@ -321,7 +321,8 @@ footer .fab, footer .fas{
 	font-family: "Circular Std";
 	height: 100px;
 	margin: 0 auto;
-	max-width: 1200px;
+/*	max-width: 1200px;*/
+	max-width: 1000px;
 	width:85%;
 	font-size: 13pt;
 }
@@ -374,19 +375,24 @@ footer .fab, footer .fas{
 }
 
 .hero {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 85%;
 	font-family: "Circular Std";
 	position: relative;
-	height: 80vh;
+/*	height: 80vh;
 	min-height: 500px;
-	max-height: 1000px;
+	max-height: 1000px;*/
+	height: 550px;
+
 }
 
 .hero-contents {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-65%);
-	padding-left: 10%;
-	padding-right: 10%;
+/*	padding-left: 10%;
+	padding-right: 10%;*/
 	text-align: left;
 	text-decoration: none;
 	line-height: 48px;
