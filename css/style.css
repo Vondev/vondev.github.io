@@ -374,33 +374,15 @@ footer .fab, footer .fas{
 
 }
 
-.hero {
-	margin: 0 auto;
-	max-width: 1000px;
-	width: 85%;
-	position: relative;
-/*	height: 80vh;
-	min-height: 500px;
-	max-height: 1000px;*/
-	height: 650px;
-
-}
 
 .hero-contents {
+	margin: 0 auto;
+	margin-top: 75px;
+	margin-bottom: 150px;
 	font-family: "Circular Std";
-	position: absolute;
-	top: 50%;
-	transform: translateY(-65%);
-	/*	padding-left: 10%;
-	padding-right: 10%;*/
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 	line-height: 48px;
-	/*	margin-left: 4%;
-	margin-right: 4%;
-	padding-left: 8%;
-	padding-right: 8%;
-	border-left: 1px rgba(255,255,255,0.3) solid;*/
 }
 
 .hero-heading {
@@ -414,13 +396,15 @@ footer .fab, footer .fas{
 }
 
 .hero-tags {
-	margin-top: 0vh;
-	font-size: 17pt;
+	display: block;
+	font-size: 17.5pt;
+	text-transform: ;
 	font-weight: 700;
-	color: rgba(210,210,255,0.4);
-	max-width: 600px;
 	line-height: 32px;
-	margin-bottom: 25px;
+	color: rgba(210,210,255,0.30);
+	margin: 0 auto;
+	max-width: 600px;
+	margin-bottom: 50px;
 }
 
 .hero-text {
@@ -428,6 +412,8 @@ footer .fab, footer .fas{
 	font-size: 17pt;
 	font-weight: 300;
 	color: rgba(210,210,255,0.9);
+	margin: 0 auto;
+	margin-bottom: 25px;
 	max-width: 600px;
 }
 
@@ -930,13 +916,17 @@ footer .fab, footer .fas{
 	}
 
 	.hero-contents {
-/*		padding-left: 8%;
-		padding-right: 8%;*/
-		border: 0px;
+		margin: 0 auto;
+		margin-top: 75px;
+		margin-bottom: 150px;
+		font-family: "Circular Std";
+		text-align: center;
+		text-decoration: none;
+		line-height: 48px;
 	}
 
 	.hero-heading {
-		width: 225px;
+		width: 250px;
 	}
 
 	.hero-tags {
@@ -947,7 +937,7 @@ footer .fab, footer .fas{
 		font-size: 15pt;
 		line-height: 24pt;
 		width: 100%;
-		max-width: 400px;
+		max-width: 350px;
 	}
 
 	.projects-grid {
