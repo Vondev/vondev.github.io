@@ -254,7 +254,7 @@ footer .fab, footer .fas{
 
 .highlight-4 {
 	color: #0fd2ae;
-/*	font-size: 1.2em;*/
+	/*	font-size: 1.2em;*/
 	font-weight: 900;
 	text-transform: uppercase;
 }
@@ -321,7 +321,7 @@ footer .fab, footer .fas{
 	font-family: "Circular Std";
 	height: 100px;
 	margin: 0 auto;
-/*	max-width: 1200px;*/
+	/*	max-width: 1200px;*/
 	max-width: 1000px;
 	width:85%;
 	font-size: 13pt;
@@ -378,24 +378,24 @@ footer .fab, footer .fas{
 	margin: 0 auto;
 	max-width: 1000px;
 	width: 85%;
-	font-family: "Circular Std";
 	position: relative;
 /*	height: 80vh;
 	min-height: 500px;
 	max-height: 1000px;*/
-	height: 550px;
+	height: 650px;
 
 }
 
 .hero-contents {
+	font-family: "Circular Std";
 	position: absolute;
 	top: 50%;
 	transform: translateY(-65%);
 /*	padding-left: 10%;
-	padding-right: 10%;*/
-	text-align: left;
-	text-decoration: none;
-	line-height: 48px;
+padding-right: 10%;*/
+text-align: left;
+text-decoration: none;
+line-height: 48px;
 	/*	margin-left: 4%;
 	margin-right: 4%;
 	padding-left: 8%;
@@ -404,13 +404,13 @@ footer .fab, footer .fas{
 }
 
 .hero-heading {
+	width: 350px;
 	display: inline-block;
-	letter-spacing: -2pt;
-	font-size: 40pt;
-	font-weight: 900;
-	color: #ffffff;
-	margin-bottom: 35px;
-	max-width: 400px;
+	margin-bottom: 25px;
+}
+
+.hero-heading img {
+	width: 100%;
 }
 
 .hero-tags {
@@ -828,12 +828,12 @@ footer .fab, footer .fas{
 }
 
 .flickity-page-dots {
-  top: 25px;
-  bottom: 95%;
+	top: 25px;
+	bottom: 95%;
 }
 
 .carousel-nav .carousel-cell.is-nav-selected {
-  background: #ED2;
+	background: #ED2;
 }
 
 .carousel-dark {
@@ -843,15 +843,15 @@ footer .fab, footer .fas{
 
 
 .carousel-dark .flickity-page-dots .dot {
-	  width: 12px;
-	  height: 12px;
-	  opacity: 1;
-	  background: transparent;
-	  border: 2px solid white;
-	}
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid white;
+}
 
 .carousel-dark .flickity-page-dots .dot.is-selected {
-	  background: white;
+	background: white;
 }
 
 
@@ -936,9 +936,7 @@ footer .fab, footer .fas{
 	}
 
 	.hero-heading {
-		letter-spacing: -1pt;
-		font-size: 28pt;
-		margin-bottom: 40px;
+		width: 225px;
 	}
 
 	.hero-tags {
