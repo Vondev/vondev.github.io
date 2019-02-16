@@ -322,7 +322,7 @@ footer .fab, footer .fas{
 	height: 100px;
 	margin: 0 auto;
 	/*	max-width: 1200px;*/
-	max-width: 1000px;
+	max-width: 750px;
 	width:85%;
 	font-size: 13pt;
 }
@@ -350,20 +350,19 @@ footer .fab, footer .fas{
 }
 
 .nav-link {
-	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 	position: relative;
 	margin-top: 0px;
 	padding-bottom: 5px;
 }
 
 .nav-link-left {
-	margin-right: 10%;
+	margin-right: 14%;
 	float: left;
 }
 
 .nav-link-right {
-	margin-left: 10%;
+	margin-left: 12%;
 	float: right;
 }
 
