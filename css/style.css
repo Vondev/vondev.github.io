@@ -395,10 +395,14 @@ footer .fab, footer .fas{
 	margin: 0 auto;
 	margin-top: 125px;
 	margin-bottom: 150px;
+	max-width: 750px;
 	font-family: "Circular Std";
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	line-height: 48px;
+
+
+
 }
 
 .hero-heading {
@@ -423,7 +427,7 @@ footer .fab, footer .fas{
 	line-height: 32px;
 	color: rgba(210,210,255,0.5);
 	margin: 0 auto;
-	max-width: 600px;
+/*	max-width: 600px;*/
 	margin-bottom: 60px;
 }
 
@@ -434,7 +438,7 @@ footer .fab, footer .fas{
 	color: rgba(210,210,255,0.5);
 	margin: 0 auto;
 	margin-bottom: 25px;
-	max-width: 600px;
+/*	max-width: 600px;*/
 }
 
 .hero-color-highlight {
