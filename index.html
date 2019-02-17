@@ -24,20 +24,21 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link  rel="stylesheet" href="css/all.css">
-
+	<link rel="stylesheet" href="css/all.css">
 
 	<!-- Navbar start -->
 	<nav class="navigation">
-		<div class="nav-logo">
-			<a href="index.html">
-				<img src="assets/logo-color.png">
-			</a>
+		<div class="nav-wrapper">
+			<span class="nav-logo">
+				<a href="index.html">
+					<img src="assets/logo-color.png">	
+				</a>
+			</span>
+			<a class="nav-link" target="_self" href="about.html">About</a>
+			<a class="nav-link" target="_blank" href="resume.pdf">Résumé</a>
+			<a class="nav-link" target="_self" href="gallery.html">Gallery</a>
+			<a class="nav-link" target="_self" href="index.html">Work</a>
 		</div>
-		<a class="nav-link nav-link-left" target="_self" href="index.html">Work</a>
-		<a class="nav-link nav-link-left" target="_self" href="gallery.html">Gallery</a>
-		<a class="nav-link nav-link-right" target="_self" href="about.html">About</a>
-		<a class="nav-link nav-link-right" target="_blank" href="resume.pdf">Résumé</a>
 	</nav>
 	<!-- Navbar end  -->
 
@@ -45,24 +46,18 @@
 
 
 <body>
-	<div class="hero-contents">
+	<div class="hero-wrapper">
+		<div class="hero-contents">
+			<div class="hero-heading">
+				Hi, I'm<br>
+				<span class="highlight" style="background-image: url(assets/gradient-wave.gif);">Jesse Wu</span> .
+			</div>
 
-		<span class="hero-heading"> 
-			<!-- <img src="assets/jesse-wu.png" alt="Jesse Wu"></img> -->
-			Jesse Wu
-		</span>
-
-		<div class="hero-tags">
-			<span class="hero-white-highlight">Designer</span>
-			&nbsp;&sdot;&nbsp; 
-			<span class="hero-white-highlight">Researcher</span>
-			&nbsp;&sdot;&nbsp; 
-			<span class="hero-white-highlight">Engineer</span>
+			<div class="hero-text"> 
+				<!-- I am a product designer who loves to listen</span>, <span class="hero-white-highlight">learn</span>, <span class="hero-white-highlight">craft</span>, and <span class="hero-white-highlight">code</span>. -->
+				I am a product designer who loves to <span class="hero-white-highlight">learn</span> and craves to <span class="hero-white-highlight">create</span>.
+			</div>
 		</div>
-		<div class="hero-text"> 
-			I like to learn people's stories and craft solutions that are holistic, usable, and delightful to use. 
-		</div>
-
 	</div>
 
 
@@ -157,12 +152,6 @@
 
 
 </body>
-
-<script>
-
-	$("#navbar").load("navbar.html");
-
-</script>
 
 
 
