@@ -337,7 +337,7 @@ footer .fab, footer .fas{
 .nav-wrapper {
 	max-width: 900px;
 	margin: 0 auto;
-	width: 85%;
+	width: 87%;
 }
 
 .nav-logo {
@@ -366,7 +366,6 @@ footer .fab, footer .fas{
 	padding-bottom: 32px;
 	margin-left: 8%;
 	float: right;
-
 }
 
 
@@ -395,7 +394,7 @@ footer .fab, footer .fas{
 	height: 90vh;
 	min-height: 600px;
 	max-height: 800px;
-	width: 70%;
+	width: 75%;
 	max-width: 900px;
 }
 
@@ -943,7 +942,8 @@ footer .fab, footer .fas{
 	}
 
 	.navigation {
-		font-size: 10pt;
+		font-size: 11pt;
+		height: 80px;
 	}
 
 	.nav-logo {
@@ -952,7 +952,10 @@ footer .fab, footer .fas{
 	}
 
 	.nav-link {
-		margin-left: 5%;
+		padding-top: ;
+		margin-left: 6%;
+		padding-top: 27px;
+		padding-bottom: 22px;
 	}
 
 
