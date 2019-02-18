@@ -410,7 +410,7 @@ footer .fab, footer .fas{
 .hero-heading {
 	display: inline-block;
 	font-size: 48pt;
-	line-height: 48pt;
+	line-height: 50pt;
 	color: rgba(250,250,255,0.99);
 	font-weight: 900;
 	margin-bottom: 40px;
@@ -429,26 +429,11 @@ footer .fab, footer .fas{
 	height: 100%;
 }
 
-.hero-tags {
-	display: block;
-	font-size: 22pt;
-	text-transform: ;
-	line-height: 32px;
-	color: rgba(210,210,255,0.5);
-	max-width: 500px;
-	margin-bottom: 0px;
-}
-
 .hero-text {
 	font-size: 20pt;
-	line-height: 28pt;
+	line-height: 32pt;
 	color: rgba(210,210,255,0.5);
 	max-width: 500px;
-}
-
-.hero-color-highlight {
-	/*background: linear-gradient(to right, #FE468A, #FC8FF1 30%, #FC8FF1 55%, #B1FFE7 70%);*/
-
 }
 
 .hero-white-highlight {
@@ -477,18 +462,18 @@ footer .fab, footer .fas{
 	line-height: 2em;
 	margin: 0 auto;
 	overflow: hidden;
-	transition: 0.2s;
+	transition: 0.25s;
 	width: 300px;
 	border-radius: 10px;
 	background-color: rgba(245,245,255,0.95);
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	height: 450px;
 }
 
 .card:hover {
 	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-	box-shadow: 0 16px 28px rgba(0,0,0,0.25), 0 12px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 16px 40px rgba(0,0,0,0.20), 0 12px 20px rgba(0,0,0,0.17);
 	transform: translate(0, -8px);
 	text-decoration: none;
 }
@@ -978,12 +963,8 @@ footer .fab, footer .fas{
 		line-height: 40pt;
 	}
 
-	.hero-tags {
-		font-size: 14pt;
-	}
-
 	.hero-text {
-		font-size: 16pt;
+		font-size: 14pt;
 		line-height: 24pt;
 	}
 
