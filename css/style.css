@@ -196,11 +196,12 @@ hr {
 
 
 footer {
+	font-family: "Circular Std";
 	padding: 50px;
-	background-color: #33333f;
-	color: #aaaabb;
+	background-color: rgba(0,0,0,0.1);
+	font-size: 12pt;
+	color: rgba(230,230,255,0.4);
 	text-align: center;
-	font-size: 0.85em;
 	font-weight: 500;
 }
 
@@ -230,6 +231,10 @@ footer .fab, footer .fas{
 	margin-top: 125px;
 	margin-bottom: 70px;
 	max-width: 850px;
+}
+
+.highlight-white {
+	color: #ffffff;
 }
 
 .highlight-1 {
@@ -330,8 +335,7 @@ footer .fab, footer .fas{
 
 .navigation a {
 	text-decoration: none;
-	color: rgba(230,230,255,0.7);
-	font-weight: inherit;
+	
 }
 
 .nav-wrapper {
@@ -362,6 +366,8 @@ footer .fab, footer .fas{
 }
 
 .nav-link {
+	color: rgba(230,230,255,0.7);
+	font-weight: 400;
 	padding-top: 35px;
 	padding-bottom: 32px;
 	margin-left: 8%;
@@ -380,13 +386,17 @@ footer .fab, footer .fas{
 } 
 
 .nav-link:active {
-	box-shadow: 0px 3px #50ebbe;
+	box-shadow: 0px 3px rgba(255,255,255,1);
 	color: #ffffff;
 } 
 
 .nav-link:visited {
-/*	box-shadow: 0px 3px #50ebbe;
-	color: #ffffff;*/
+
+}
+
+.nav-link-selected {
+	box-shadow: 0px 3px rgba(255,255,255,1);	
+	color: #ffffff;
 }
 
 .hero-wrapper {
@@ -430,7 +440,7 @@ footer .fab, footer .fas{
 }
 
 .hero-text {
-	font-size: 20pt;
+	font-size: 17pt;
 	line-height: 32pt;
 	color: rgba(210,210,255,0.5);
 	max-width: 500px;
@@ -673,6 +683,11 @@ footer .fab, footer .fas{
 
 .width-limiter-750 {
 	max-width: 750px;
+	margin: 0 auto;
+}
+
+.width-limiter-400nav {
+	max-width: 400navpx;
 	margin: 0 auto;
 }
 
