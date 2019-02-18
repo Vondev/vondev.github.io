@@ -406,9 +406,6 @@ footer .fab, footer .fas{
 	font-family: "Circular Std";
 	text-align: left;
 	text-decoration: none;
-	line-height: 38pt;
-	font-weight: 300;
-	
 }
 
 .hero-heading {
@@ -440,11 +437,12 @@ footer .fab, footer .fas{
 	line-height: 32px;
 	color: rgba(210,210,255,0.5);
 	max-width: 500px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
 .hero-text {
 	font-size: 20pt;
+	line-height: 28pt;
 	color: rgba(210,210,255,0.5);
 	max-width: 500px;
 }
