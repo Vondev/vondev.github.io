@@ -116,7 +116,7 @@ h2 {
 	font-size: 1.9em;
 	letter-spacing: -0.015em;
 	line-height: 1.6em;
-	color: #bbbbbf;
+	color: #bbbbc5;
 	margin-bottom: 1em;
 }
 
@@ -218,6 +218,10 @@ footer .fab, footer .fas{
 	height: 50px;
 }
 
+.spacer-mobile {
+	height: 0px;
+}
+
 .spacer-small { 
 	height: 25px;
 }
@@ -286,7 +290,7 @@ footer .fab, footer .fas{
 .dark-theme h5, 
 .dark-theme h6 {
 	font-family: "Circular Std";
-	color: #777788;
+	color: #ffffff;
 }
 
 .dark-theme a {
@@ -758,6 +762,18 @@ footer .fab, footer .fas{
 	box-shadow: 0 16px 40px 0 rgba(0,0,0,0.4);
 }
 
+.background-black {
+	background-color: #000000;
+}
+
+.background-darken {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.background-white {
+	background-color: #ffffff;
+}
+
 
 .base-grid {
 	display: grid;
@@ -790,10 +806,30 @@ footer .fab, footer .fas{
 	grid-column-gap: 5%;
 }
 
+.gallery-grid {
+	grid-template-columns: 46% 46%;
+	grid-column-gap: 8%;
+	font-size: 13pt;
+	color: #ddddef;
+}
+
+.grid-item {
+	margin-bottom: 50px;
+}
+
+.grid-item .title {
+	font-size: 17pt;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
 
 .grid-item img {
 	width: 100%;
 }
+
+
+
 
 
 
@@ -990,6 +1026,10 @@ footer .fab, footer .fas{
 		width:100%;
 	}
 
+	.grid-item {
+		margin-bottom: 0px;
+	}
+
 	.project-page-banner {
 
 	}
@@ -1000,6 +1040,10 @@ footer .fab, footer .fas{
 
 	.spacer {
 		height: 25px;
+	}
+
+	.spacer-mobile {
+		height: 50px;
 	}
 
 	.spacer-small {
