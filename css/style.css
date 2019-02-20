@@ -673,6 +673,14 @@ footer .fab, footer .fas{
 	background-size: cover;
 }
 
+.image-wrapper-left-aligned {
+
+}
+
+.left-aligned {
+	text-align: left;
+}
+
 .video-wrapper {
 	margin: 0 auto;
 }
