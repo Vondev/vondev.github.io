@@ -618,9 +618,8 @@ footer .fab, footer .fas{
 
 .table-of-contents {
 	display: inline-block;
-	border: 1px solid #dddddd;
-	padding: 25px;
-	border-radius: 5px;
+	border-left: 3px solid #dddde5;
+	padding-left: 25px;
 	font-size: 0.9em;
 }
 
