@@ -435,8 +435,8 @@ footer .fab, footer .fas{
 	font-size: 48pt;
 	font-weight: 900;
 	-webkit-background-clip: text;
-	color: rgba(255,255,255,0);
-	width: 350px;
+	-webkit-text-fill-color: transparent;
+/*	background: #ffffff;*/
 }
 
 .hero-heading img {
