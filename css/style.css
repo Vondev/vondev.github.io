@@ -158,12 +158,14 @@ h6 {
 
 blockquote, q {
 	font-style: italic;
-	font-weight: 400;
-	font-size: 1.1em;
+	font-weight: 500;
+	font-size: 1.2em;
 	line-height: 1.6em;
-	color: #444444;
+	color: #555555;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	border-left: 3px solid #dddde5;
+	padding-left: 1em;
 }
 
 ol {
