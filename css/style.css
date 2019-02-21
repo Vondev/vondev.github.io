@@ -982,6 +982,11 @@ footer .fab, footer .fas{
 		width: 90%;
 	}
 
+	.about-grid {
+		grid-template-columns: 35% 60%;
+		grid-column-gap: 5%;
+	}
+
 
 
 }
