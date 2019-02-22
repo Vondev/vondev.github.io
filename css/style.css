@@ -53,6 +53,8 @@ table {
 }
 
 body {
+	min-height: 900px;
+
 	background-color: #33333f;
 	font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
@@ -301,8 +303,8 @@ footer .fab, footer .fas{
 
 .dark-theme p {
 	color: #ddddee;
-	font-size: 14pt;
-	line-height: 2em;
+	font-size: 13pt;
+	line-height: 1.7em;
 }
 
 .dark-theme b {
@@ -322,6 +324,10 @@ footer .fab, footer .fas{
 
 
 /* General Pages */
+
+.main-content {
+	min-height: 750px;
+}
 
 .decorative-bar {
 	height: 0px;
@@ -491,8 +497,8 @@ footer .fab, footer .fas{
 
 .general-page-divider {
 	margin-left: 0 auto;
-	background: #00bab0;
-	width: 40px;
+	background: #50ebbe;
+	width: 35px;
 	height: 3px;
 	border-radius: 0px;
 	margin-top: 35px;
@@ -875,7 +881,6 @@ footer .fab, footer .fas{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 13pt;
 	color: #ddddef;
 	margin-bottom: 75px;
 	justify-content: space-between;
