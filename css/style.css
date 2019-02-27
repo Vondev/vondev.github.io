@@ -758,10 +758,17 @@ footer .fab, footer .fas{
 .hero-heading .highlight {
 	font-size: 48pt;
 	font-weight: 900;
+	background: linear-gradient(270deg, 
+		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
+	background-size: 800% 800%;
+	-webkit-animation: gradientFlood 2.5s infinite;
+	-moz-animation: gradientFlood 2.5s infinite;
+	animation: gradientFlood 2.5s infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/*	background: #ffffff;*/
 }
+
+
 
 .hero-heading img {
 	width: 100%;
@@ -782,8 +789,13 @@ footer .fab, footer .fas{
 
 .hero-divider {
 	margin-left: 0 auto;
-	background: rgba(210,210,255,0.5);
-	/*background: linear-gradient(to right, #FF3F7F, #FB94FF, #37FFE7, #B4FFE5);*/
+/*	background: rgba(210,210,255,0.5);*/
+	background: linear-gradient(270deg, 
+		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
+	background-size: 1600% 1600%;
+	-webkit-animation: gradientFlood 2.5s infinite;
+	-moz-animation: gradientFlood 2.5s infinite;
+	animation: gradientFlood 2.5s infinite;
 	width: 40px;
 	height: 3px;
 	margin-bottom: 35px;
@@ -1247,6 +1259,18 @@ footer .fab, footer .fas{
 
 
 
+@-webkit-keyframes gradientFlood {
+    0%{background-position:100%}
+    100%{background-position:0%}
+}
+@-moz-keyframes gradientFlood {
+    0%{background-position:100%}
+    100%{background-position:0%}
+}
+@keyframes gradientFlood { 
+    0%{background-position:100%}
+    100%{background-position:0%}
+}
 
 
 
