@@ -761,9 +761,9 @@ footer .fab, footer .fas{
 	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
 	background-size: 800% 800%;
-	-webkit-animation: gradientFlood 2.5s infinite;
-	-moz-animation: gradientFlood 2.5s infinite;
-	animation: gradientFlood 2.5s infinite;
+	-webkit-animation: gradientFlood 3.5s infinite;
+	-moz-animation: gradientFlood 3.5s infinite;
+	animation: gradientFlood 3.5s infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -793,9 +793,9 @@ footer .fab, footer .fas{
 	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
 	background-size: 1600% 1600%;
-	-webkit-animation: gradientFlood 2.5s infinite;
-	-moz-animation: gradientFlood 2.5s infinite;
-	animation: gradientFlood 2.5s infinite;
+	-webkit-animation: gradientFlood 3.5s infinite;
+	-moz-animation: gradientFlood 3.5s infinite;
+	animation: gradientFlood 3.5s infinite;
 	width: 40px;
 	height: 3px;
 	margin-bottom: 35px;
