@@ -759,21 +759,21 @@ footer .fab, footer .fas{
 	font-size: 48pt;
 	font-weight: 900;
 
-	background-image: url(../assets/gradient-wave.gif);
+/*	background-image: url(../assets/gradient-wave.gif);*/
 
-/*	background: linear-gradient(270deg, 
+	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
-	background-size: 1600% 1600%;
-	-webkit-animation: gradientFlood 5s ease infinite;
-	-moz-animation: gradientFlood 5s ease infinite;
-	animation: gradientFlood 5s ease infinite;*/
+	background-size: 2000% 2000%;
+	-webkit-animation: gradientFlood 5s infinite;
+	-moz-animation: gradientFlood 5s infinite;
+	animation: gradientFlood 5s infinite;
 
 /*	background: linear-gradient(270deg, 
 		 #37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
 	background-size: 250% 250%;
-	-webkit-animation: gradientFlood 2.5s ease infinite;
-	-moz-animation: gradientFlood 2.5s ease infinite;
-	animation: gradientFlood 2.5s ease infinite;*/
+	-webkit-animation: gradientFlood 2.5s infinite;
+	-moz-animation: gradientFlood 2.5s infinite;
+	animation: gradientFlood 2.5s infinite;*/
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -800,22 +800,22 @@ footer .fab, footer .fas{
 
 .hero-divider {
 	margin-left: 0 auto;
-	
-	background: rgba(210,210,255,0.5);
-/*
+
+/*	background: rgba(210,210,255,0.5);*/
+
 	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
 	background-size: 3200% 3200%;
-	-webkit-animation: gradientFlood 5s ease infinite;
-	-moz-animation: gradientFlood 5s ease infinite;
-	animation: gradientFlood 5s ease infinite;*/
+	-webkit-animation: gradientFlood 5s infinite;
+	-moz-animation: gradientFlood 5s infinite;
+	animation: gradientFlood 5s infinite;
 
 /*	background: linear-gradient(270deg, 
 		 #37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
 	background-size: 1600% 1600%;
-	-webkit-animation: gradientFlood 2.5s ease infinite;
-	-moz-animation: gradientFlood 2.5s ease infinite;
-	animation: gradientFlood 2.5s ease infinite;*/
+	-webkit-animation: gradientFlood 2.5s infinite;
+	-moz-animation: gradientFlood 2.5s infinite;
+	animation: gradientFlood 2.5s infinite;*/
 
 	width: 40px;
 	height: 3px;
