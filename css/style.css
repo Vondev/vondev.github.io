@@ -84,7 +84,7 @@ a {
 
 a:hover {
 /*	text-decoration: underline;*/
-	filter: brightness(120%);
+	filter: brightness(125%);
 }
 
 
@@ -643,6 +643,13 @@ footer .fab, footer .fas{
 	width: 57.5%;
 }
 
+
+
+
+
+.hover-dark a:hover{
+	filter: brightness(75%);
+}
 
 
 
