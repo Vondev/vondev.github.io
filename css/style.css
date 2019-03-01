@@ -83,7 +83,8 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+/*	text-decoration: underline;*/
+	filter: brightness(120%);
 }
 
 
@@ -699,8 +700,8 @@ footer .fab, footer .fas{
 }
 
 .nav-logo:hover {
-	opacity: 0.5;
-	transition: opacity 0.2s ease-in-out;
+	filter: brightness(110%);
+	transition: opacity 0.5s ease-in-out;
 }
 
 .nav-link {
@@ -740,7 +741,7 @@ footer .fab, footer .fas{
 
 .hero-wrapper {
 	margin: 0 auto;
-	height: 90vh;
+	height: 100vh;
 	min-height: 600px;
 	max-height: 800px;
 	width: 75%;
@@ -801,6 +802,7 @@ footer .fab, footer .fas{
 	line-height: 32pt;
 	color: rgba(210,210,255,0.5);
 	max-width: 450px;
+	margin-bottom: 50px;
 }
 
 .hero-white-highlight {
@@ -810,7 +812,12 @@ footer .fab, footer .fas{
 
 .hero-divider {
 	margin-left: 0 auto;
+	width: 40px;
+	height: 3px;
+	margin-bottom: 35px;
+}
 
+.gradient-flood {
 /*	background: rgba(210,210,255,0.5);*/
 
 /*	background: linear-gradient(270deg, 
@@ -826,11 +833,9 @@ footer .fab, footer .fas{
 	-webkit-animation: gradientFlood 2.5s infinite;
 	-moz-animation: gradientFlood 2.5s infinite;
 	animation: gradientFlood 2.5s infinite;
-
-	width: 40px;
-	height: 3px;
-	margin-bottom: 35px;
 }
+
+
 
 
 .general-page-header {
@@ -894,6 +899,7 @@ footer .fab, footer .fas{
 	box-shadow: 0 16px 40px rgba(0,0,0,0.20), 0 12px 20px rgba(0,0,0,0.17);
 	transform: translate(0, -8px);
 	text-decoration: none;
+	filter: none;
 }
 
 
@@ -998,7 +1004,8 @@ footer .fab, footer .fas{
 
 .app-icon:hover {
 	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-	transform: translate(0, -2px);
+/*	transform: translate(0, -2px);*/
+	filter: brightness(105%);
 }
 
 
