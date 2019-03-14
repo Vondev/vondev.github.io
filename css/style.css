@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-/*	text-decoration: underline;*/
+	/*	text-decoration: underline;*/
 	filter: brightness(125%);
 }
 
@@ -216,6 +216,38 @@ footer .fab, footer .fas{
 }
 
 
+/* Controls */
+
+input {
+	font-family: "Circular Std";
+	font-size: 12pt;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+
+button {
+	font-family: "Circular Std";
+	font-size: 12pt;
+	box-sizing: border-box;
+	border: 0px;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	border-radius: 100px;
+	padding: 12px 20px;
+	background-color: #37ffe7;
+}
+
+button:hover {
+	filter: brightness(110%);
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
 
 
 
@@ -244,8 +276,75 @@ footer .fab, footer .fas{
 	max-width: 850px;
 }
 
+
+
+.bold {
+	font-weight: 600;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.center-everything {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.no-vertical-margins {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5, 
+.dark-theme h6 {
+	font-family: "Circular Std";
+	color: #ffffff;
+}
+
+.dark-theme a {
+	color: #37ffe7;
+}
+
+.dark-theme p {
+	color: #ddddee;
+	font-size: 13pt;
+	line-height: 1.7em;
+}
+
+.dark-theme b {
+	font-weight: 900;
+	color: #ffffff;
+}
+
+.dark-theme .fab, .dark-theme .fas {
+	color: #37ffe7;
+	/*padding-right: 1em;*/
+}
+
+.pad-right-1 {
+	padding-right: 0.5em;
+}
+
+.pad-right-2 {
+	padding-right: 1em;
+}
+
+
 .highlight-white {
 	color: #ffffff;
+}
+
+.dark-theme .highlight-translucent, .highlight-translucent {
+	color: rgba(210,210,255,0.5);
 }
 
 .highlight-1 {
@@ -280,44 +379,6 @@ footer .fab, footer .fas{
 	font-size: 0.9em;
 	font-weight: 700;
 	text-transform: uppercase;
-}
-
-.bold {
-	font-weight: 600;
-}
-
-.italic {
-	font-style: italic;
-}
-
-.dark-theme h1, 
-.dark-theme h2, 
-.dark-theme h3, 
-.dark-theme h4, 
-.dark-theme h5, 
-.dark-theme h6 {
-	font-family: "Circular Std";
-	color: #ffffff;
-}
-
-.dark-theme a {
-	color: #37ffe7;
-}
-
-.dark-theme p {
-	color: #ddddee;
-	font-size: 13pt;
-	line-height: 1.7em;
-}
-
-.dark-theme b {
-	font-weight: 900;
-	color: #ffffff;
-}
-
-.dark-theme .fab, .dark-theme .fas {
-	color: #37ffe7;
-	padding-right: 1em;
 }
 
 
@@ -778,7 +839,7 @@ footer .fab, footer .fas{
 	font-size: 48pt;
 	font-weight: 900;
 
-/*	background-image: url(../assets/gradient-wave.gif);*/
+	/*	background-image: url(../assets/gradient-wave.gif);*/
 
 /*	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
@@ -788,7 +849,7 @@ footer .fab, footer .fas{
 	animation: gradientFlood 5s infinite;*/
 
 	background: linear-gradient(270deg, 
-		 #37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
+		#37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
 	background-size: 250% 250%;
 	-webkit-animation: gradientFlood 2.5s infinite;
 	-moz-animation: gradientFlood 2.5s infinite;
@@ -827,7 +888,7 @@ footer .fab, footer .fas{
 }
 
 .gradient-flood {
-/*	background: rgba(210,210,255,0.5);*/
+	/*	background: rgba(210,210,255,0.5);*/
 
 /*	background: linear-gradient(270deg, 
 		#b4ffe5, #37ffe7, #fb94ff, #FF9ABC, #fb94ff, #37ffe7, #b4ffe5);
@@ -837,7 +898,7 @@ footer .fab, footer .fas{
 	animation: gradientFlood 5s infinite;*/
 
 	background: linear-gradient(270deg, 
-		 #37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
+		#37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
 	background-size: 1600% 1600%;
 	-webkit-animation: gradientFlood 2.5s infinite;
 	-moz-animation: gradientFlood 2.5s infinite;
@@ -960,6 +1021,34 @@ footer .fab, footer .fas{
 
 
 
+/* Password Page */
+
+.project-password-input {
+	width: 300px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.project-password-button {
+	width: 300px;
+	margin-bottom: 25px;
+}
+
+.project-password-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FF4343;
+  opacity: 1; /* Firefox */
+}
+
+.project-password-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FF4343;
+}
+
+.project-password-input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FF4343;
+}
+
+
+
 
 /* Project Page */
 
@@ -1013,7 +1102,7 @@ footer .fab, footer .fas{
 
 .app-icon:hover {
 	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-/*	transform: translate(0, -2px);*/
+	/*	transform: translate(0, -2px);*/
 	filter: brightness(105%);
 }
 
@@ -1027,10 +1116,10 @@ footer .fab, footer .fas{
 }
 
 #projects {
-    display: block;
-    position: relative;
-    top: -75px;
-    visibility: hidden;
+	display: block;
+	position: relative;
+	top: -75px;
+	visibility: hidden;
 }
 
 
@@ -1308,16 +1397,16 @@ footer .fab, footer .fas{
 
 
 @-webkit-keyframes gradientFlood {
-    0%{background-position:100%}
-    100%{background-position:0%}
+	0%{background-position:100%}
+	100%{background-position:0%}
 }
 @-moz-keyframes gradientFlood {
-    0%{background-position:100%}
-    100%{background-position:0%}
+	0%{background-position:100%}
+	100%{background-position:0%}
 }
 @keyframes gradientFlood { 
-    0%{background-position:100%}
-    100%{background-position:0%}
+	0%{background-position:100%}
+	100%{background-position:0%}
 }
 
 
