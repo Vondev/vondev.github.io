@@ -61,10 +61,22 @@
 
 </head>
 
+<style>
+
+a {
+	color: #0D2EFF;
+}
+
+a:hover {
+	filter: brightness(200%);
+}
+
+</style>
+
 
 <body>
 
-	<div class="project-page-banner" style="background-image: url(assets/610-east-night.png);"></div>
+	<div class="project-page-banner" style="background-image: url();"></div>
 	
 	<div class="project-page">
 
@@ -79,18 +91,18 @@
 
 			<div class ="content-column">
 
-				<h2 class="project-page-title">Maintenance Request App</h2>
+				<h2 class="project-page-title">Fixit</h2>
 
-				<div class="card-divider" style="background-color: #bababa"></div>
+				<div class="card-divider" style="background-color: #0D2EFF"></div>
 
 			</div>
 
 			<div class ="content-column">
-				<p class="project-page-desc"><span class="highlight-1">Prompt &mdash; </span>A great residential community (e.g. condominium, college dormitory, etc.) provides a variety of amenities and a dedicated staff responsible for its maintenance. But there isn’t always an easy way for community members to report problems to management so they can be resolved quickly.</p>
+				<p class="project-page-desc">Fixit is a mobile app that helps residents of a community make maintenance requests and keep track of ongoing and past maintenance work. In this design exercise, I created Fixit through a combination of user research, brainstorming, wireframing, and high-fidelity prototyping.<i></i></p>
 
 				
 
-<!-- 				<p><a href="#final-deliverable"><i class="fas fa-arrow-down"></i>&nbsp;&nbsp;Click here to jump directly to my final prototype.</a></p> -->
+				<!-- 				<p><a style="color: #0D2EFF" href="#final-deliverable"><i class="fas fa-arrow-down"></i>&nbsp;&nbsp;Click here to jump directly to my final prototype.</a></p> -->
 			</div>
 
 		</div>
@@ -104,8 +116,12 @@
 				<h3>On This Page</h3>
 
 				<div class="table-of-contents">
-					<h5><a href="#overview">Overview</a></h5>
-					<h5><a href="#user-research">User Research</a></h5>
+					<h5><a href="#prompt">Prompt</a></h5>
+					<h5><a href="#finding-the-problem">Finding The Problem</a></h5>
+					<h5><a href="#brainstorming">Brainstorming</a></h5>
+					<h5><a href="#wireframes">Wireframes</a></h5>
+					<h5><a href="#final-design">Final Design</a></h5>
+					<h5><a href="#discussion">Discussion</a></h5>
 				</div>
 
 			</div>
@@ -113,101 +129,297 @@
 			
 
 
-
-
-			<a id="overview"></a>
+			<a id="prompt"></a>
 			<div class="section-divider"><hr></div>
-
 			<div class ="content-column">
-				<h2>Overview</h2>
+				<h2>Prompt</h2>
 			</div>
 
 			<div class ="content-column">
-				<p>The community I chose for this exercise is <b>6TenEast</b>, a residential apartment complex located in Sunnyvale, CA. I chose this prompt and community because I the greatest access to its users and potential stakeholders. In all, this exercise took approximately 20 hours.</p>
+				<blockquote>A great residential community (e.g. condominium, college dormitory, etc.) provides a variety of amenities and a dedicated staff responsible for its maintenance. But there isn’t always an easy way for community members to report problems to management so they can be resolved quickly.</blockquote>
+			</div>
+
+			<div class ="content-column">
+				<h3>Chosen Community</h3>
 			</div>
 
 
+			<div class ="content-column">
+				The community I chose for this exercise is <b>6TenEast</b>, a residential apartment complex located in Sunnyvale, CA. I decided to go with this prompt and community because I had the greatest access to its users. 
+			</div>
+
+			<div class="spacer"></div>
+
+			<div class="content-column image-wrapper width-limiter-narrower">
+				<img class="shadow-light" src="assets/610-east-night.png"></img>
+				<div class="caption smaller-font">6TenEast Residences</div>
+			</div>
+			
 
 
-			<a id="research"></a>
+
+
+
+			<a id="finding-the-problem"></a>
 			<div class="section-divider"><hr></div>
-
 
 			<div class="content-column">
 				<h2>Finding The Problem</h2>
 			</div>
 
 			<div class="content-column">
-				<p>Located in the heard of Silicon Valley, 6TenEast is considered a luxury apartment complex. It's rental offerings feature semi-furnished apartments that come with most electronic appliances installed.</p>
+				<p>Located in the heard of Silicon Valley, 6TenEast is a relatively high-end apartment complex that offers well-furnished apartments and a robust set of common amenities. Management takes care of these amenities as well as </p>
 
-				<p>As I began my research, I found out that the complex already has an existing web portal that on-site maintenance team in charge of . My job is to figure out how to improve this existing process to make it a better 
+				<p>As I began my research, I found out that the complex already has an existing web portal allows residents to make maintenance requests. My job is to figure out how to improve this existing process to make it a better 
 				</p>
 			</div>
 
+
+			<div class="spacer"></div>
+			<div class="spacer"></div>
 			<div class="content-column">
-				6TenEast is considered a luxury apartment complex and has a existing management team in charge of. 
-
-				
-				To begin, I interviewed both the condo management and 3 residents. While the exercise is geared towards designing for residents, I found it useful to interview the property manager because this problem the workflow of the management plays a huge role in the resident's experience . 
+				<h3>User Research</h3>
 			</div>
 
-
-				To begin, I interviewed both the condo management and 3 residents. While the exercise is geared towards designing for residents, I found it useful to interview the property manager because this problem the workflow of the management plays a huge role in the resident's experience . 
+			<div class="content-column">				
+				To begin, I interviewed both the condo management and 3 residents. While the exercise is geared towards designing for residents, I found it useful to interview the property manager because the workflow of the maintenance team plays a significant role in the resident's experience. 
 			</div>
 
+			<div class="spacer"></div>
 
+			<div class="content-column image-wrapper">
+				<img class="" src="assets/interviews-sample-collage.png"></img>
+				<div class="caption smaller-font">Samples from interview field notes</div>
+			</div>
 
-
-
-			<a id="design-goals"></a>
-			<div class="section-divider"><hr></div>
-
+			<div class="spacer"></div>
 			<div class="content-column">
-				<h2>Design Goals</h2>
+				<h3>Findings</h3>
 			</div>
 
-
-
-
-
-
-
-			<a id="wireframes"></a>
-			<div class="section-divider"><hr></div>
-
-			<div class="content-column">
-				<h2>Wireframes</h2>
+			<div class="content-column">				
+				 
 			</div>
+			
 
-
-
-
-
-
-			<a id="high-fidelity-prototype"></a>
-			<div class="section-divider"><hr></div>
 
 
 			<div class="content-column">
-				<h2>High-Fidelity Prototype</h2>
+				<h3>Design Goal</h3>
 			</div>
 
-
-
-
-
-
-			<a id="discussion"></a>
-			<div class="section-divider"><hr></div>
-
-			<div class="content-column">
-				<h2>Discussion</h2>
+			<div class="content-column">				
+				<p>Create an experience that makes the maintenance process feel easier for the user, allowing the user to feel confident and assured that their issue can be fixed.</p>
 			</div>
 
 
 
 		</div>
+
+
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+
+
+
+
+
+		<a id="brainstorming"></a>
+		<div class="section-divider"><hr></div>
+
+		<div class="content-column">
+			<h2>Brainstorming</h2>
+		</div>
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+
+
+
+
+		<div class="content-column image-wrapper width-limiter-narrower">
+			<img class="shadow-light" src="assets/ideas.png"></img>
+			<div class="caption smaller-font">Ideation Sketches</div>
+		</div>
+
+
+
+
+
+
+
+		<a id="wireframes"></a>
+		<div class="section-divider"><hr></div>
+
+		<div class="content-column">
+			<h2>Wireframes</h2>
+		</div>
+		<div class="content-column">
+			<p>With goals in mind and ideas in my head, I started sketching out some screens for the app, incorporating these wherever I could. I tried to keep everything as simple as possible but also useful at the same time.</p>
+
+
+		</div>
+
+
+<!-- 
+		<div class="content-column">
+			<h3>Login & Self-Help</h3>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="border-single" src="assets/wireframe1.png"></img>
+		</div>
+
+
+
+
+
+		<div class="content-column">
+			<h3>Create Maintenance Request</h3>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="border-single" src="assets/wireframe2.png"></img>
+		</div>
+
+
+
+
+		<div class="content-column">
+			<h3>Track Maintenance Requests</h3>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="border-single" style="padding: 20px" src="assets/wireframe3.png"></img>
+
+		</div>
+
+
+		<div class="content-column">
+			<h3>Messaging</h3>
+		</div>
+
+		<div class="content-column image-wrapper width-limiter-narrower">
+			<img class="border-single" style="padding: 20px" src="assets/wireframe4.png"></img>
+
+		</div> -->
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="" src="assets/wireframes-all.png"></img>
+		</div>
+
+
+
+
+
+
+
+		<a id="final-design"></a>
+		<div class="section-divider"><hr></div>
+
+		<div class="content-column">
+			<h2>Final Design</h2>
+		</div>
+
+		<div class="content-column">
+			In fleshing my wireframes into more detailed, high-fidelity prototypes, I specified several new features that I thought was important to the app's usability.
+		</div>
+
+
+
+
+		<div class="spacer"></div>
+		<div class="content-column">
+			<h3>Alternative Login</h3>
+		</div>
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="" src="assets/userflow1.png"></img>
+		</div>
+
+
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="content-column">
+			<h3>Create Maintenance Request</h3>
+		</div>
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+		<div class="content-column image-wrapper width-limiter-wider">
+			<img class="" src="assets/userflow2.png"></img>
+		</div>
+
+
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="content-column">
+			<h3>View Maintenance Requests</h3>
+		</div>
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="" src="assets/userflow3.png"></img>
+		</div>
+
+
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="content-column">
+			<h3>Messaging</h3>
+		</div>
+
+		<div class="content-column">
+			<p></p>
+		</div>
+
+		<div class="content-column image-wrapper">
+			<img class="" src="assets/userflow4.png"></img>
+		</div>
+
+
+
+
+
+
+
+
+		<a id="discussion"></a>
+		<div class="section-divider"><hr></div>
+
+		<div class="content-column">
+			<h2>Discussion</h2>
+		</div>
+
+		<div class="content-column">
+			<p>If I were to continue this project, I would start by user-testing several parts of it. Specifically, I want to know </p>
+		</div>
+
+
+
 	</div>
+</div>
 
 
 </body>
