@@ -828,6 +828,7 @@ button:hover {
 .hero-heading {
 	display: inline-block;
 	font-size: 48pt;
+	letter-spacing: -0.05rem;
 	line-height: 50pt;
 	color: rgba(250,250,255,0.99);
 	font-weight: 900;
