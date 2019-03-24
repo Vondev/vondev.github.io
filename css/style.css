@@ -872,8 +872,6 @@ button:hover {
 }
 
 .hero-heading .highlight {
-	font-size: 48pt;
-	font-weight: 900;
 
 	/*	background-image: url(../assets/gradient-wave.gif);*/
 
@@ -883,16 +881,17 @@ button:hover {
 	-webkit-animation: gradientFlood 5s infinite;
 	-moz-animation: gradientFlood 5s infinite;
 	animation: gradientFlood 5s infinite;*/
-
+/*
 	background: linear-gradient(270deg, 
-		#37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);
-	background-size: 250% 250%;
+		#37ffe7, #37ffe7, #b4ffe5, #37ffe7, #37ffe7);*/
+	color: #37ffe7;
+	/*background-size: 250% 250%;
 	-webkit-animation: gradientFlood 2.5s infinite;
 	-moz-animation: gradientFlood 2.5s infinite;
-	animation: gradientFlood 2.5s infinite;
+	animation: gradientFlood 2.5s infinite;*/
 
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+/*	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
 }
 
 
