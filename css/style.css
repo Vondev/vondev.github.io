@@ -1294,7 +1294,18 @@ button:hover {
 	}
 
 	.navigation {
+		position: relative;
 		font-size: 11pt;
+		height: 80px;
+	}
+
+	.nav-logo {
+		height: 30px;
+		width: 30px;
+	}
+
+	.nav-phantom {
+		height: 0px;
 	}
 
 	.nav-link {
