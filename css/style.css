@@ -1156,6 +1156,10 @@ button:hover {
 	visibility: hidden;
 }
 
+#table-of-contents-top {
+	top: -50px;
+}
+
 .anchor-link {
 
 }
