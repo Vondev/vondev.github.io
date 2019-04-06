@@ -24,7 +24,7 @@ $(document).ready(function(){
 	      }, 350, function(){
 	        // Add hash (#) to URL when done scrolling (default click behavior)
 	        window.location.hash = hash;
-	    	});
+	    });
 	    } // End if
 	});
 });
@@ -63,19 +63,22 @@ function scrollFunction() {
 	};
 
 
-	var backToTopButton = $("#back-to-top");
-	var showButtonThreshold = $("#table-of-contents-top").position().top + 100;
-	console.log(showButtonThreshold);
 
-	if (document.body.scrollTop > showButtonThreshold || document.documentElement.scrollTop > showButtonThreshold) {
-		backToTopButton.css("bottom", "20px");
-		backToTopButton.css("visibility", "visible");
-		backToTopButton.css("opacity", "1");
-	}
-	else {
-		backToTopButton.css("bottom", "0px");
-		backToTopButton.css("visibility", "hidden");
-		backToTopButton.css("opacity", "0");
+	if (document.getElementById("back-to-top")) {
+		var backToTopButton = $("#back-to-top");
+		var showButtonThreshold = $("#table-of-contents-top").position().top + 100;
+		// console.log(showButtonThreshold);
+
+		if (document.body.scrollTop > showButtonThreshold || document.documentElement.scrollTop > showButtonThreshold) {
+			backToTopButton.css("bottom", "20px");
+			backToTopButton.css("visibility", "visible");
+			backToTopButton.css("opacity", "1");
+		}
+		else {
+			backToTopButton.css("bottom", "0px");
+			backToTopButton.css("visibility", "hidden");
+			backToTopButton.css("opacity", "0");
+		};
 	};
 }
 
