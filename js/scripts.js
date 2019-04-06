@@ -53,14 +53,14 @@ function scrollFunction() {
 		$(".nav-link").css("padding-bottom", "33px");
 		$(".nav-logo").css("width","40px");
 		$(".nav-logo").css("height","40px");
-	};
+	}
 
 	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		$(".navigation").css("background-color", "rgba(40,40,50,0.9)");
 	}
 	else {
 		$(".navigation").css("background-color", "rgba(40,40,50,1)");
-	};
+	}
 
 
 
@@ -78,8 +78,8 @@ function scrollFunction() {
 			backToTopButton.css("bottom", "0px");
 			backToTopButton.css("visibility", "hidden");
 			backToTopButton.css("opacity", "0");
-		};
-	};
+		}
+	}
 }
 
 
