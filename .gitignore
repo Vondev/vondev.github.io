@@ -1,12 +1,4 @@
-
-.DS_Store
-images/.DS_Store
-
-test.html
-images/.DS_Store
-images/.DS_Store
-images/pioneers/.DS_Store
-images/.DS_Store
-images/.DS_Store
-images/.DS_Store
-images/.DS_Store
+**/.DS_Store
+_site
+.sass-cache
+.jekyll-metadata

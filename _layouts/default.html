@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>{{ page.title }}</title>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#33333f">
+  <meta name="msapplication-TileColor" content="#00bab0">
+  <meta name="theme-color" content="#00bab0">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/font-awesome-all.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Javascript -->
+  <script src="/js/jquery-3.3.1.js"></script>
+  <script src="/js/scripts.js"></script>
+
+  <!-- Navbar start -->
+  <div>
+    <nav class="navigation">
+      <div class="nav-contents">
+        <span class="nav-logo">
+          <a href="/index.html">
+            <img src="/assets/logo-color.png">   
+          </a>
+        </span>
+        <a class="nav-link {% if page.menuCategory == "about" %}nav-link-selected{% endif %}" target="_self" href="/about.html">About</a>
+        <a class="nav-link {% if page.menuCategory == "resume" %}nav-link-selected{% endif %}" target="_blank" href="/resume.pdf">Résumé</a>
+        <a class="nav-link {% if page.menuCategory == "gallery" %}nav-link-selected{% endif %}" target="_self" href="/gallery.html">Gallery</a>
+        <a class="nav-link {% if page.menuCategory == "work" %}nav-link-selected{% endif %}" target="_self" href="/index.html">Work</a>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar end  -->
+</head>
+
+<body>
+
+  {{ content }}
+
+  <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
+
+</body>
+
+
+<footer>
+  <div>
+    <a href="mailto:jesse@jessezwu.com"><i class="fas fa-lg fa-envelope"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/jesse-z-wu/"><i class="fab fa-lg fa-linkedin"></i></a>
+  </div>
+  <div class="spacer-small"></div>
+  <div>Designed & Coded by Jesse Wu &copy; 2019 </div>
+</footer>
+
+
+
+</html>

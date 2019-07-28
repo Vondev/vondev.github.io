@@ -1,106 +1,43 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: Authentication - Jesse Wu
+menuCategory: none
+---
+
+<div class="nav-phantom"></div>
+
+<div class="width-limiter-900 dark-theme">
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 
 
-<head lang="en">
+    <div class="center-everything">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135026444-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <i class="fas fa-lock fa-2x highlight-translucent"></i>
 
-        gtag('config', 'UA-135026444-1');
-    </script>
+        <div class="spacer-small"></div>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <h3 id="header-text" class="no-vertical-margins highlight-translucent">Enter password to proceed.</h3>
 
-    <title>MyWit - Jesse Wu</title>
+        <div class="spacer-small"></div>
 
-    <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#33333f">
-    <meta name="msapplication-TileColor" content="#00bab0">
-    <meta name="theme-color" content="#00bab0">
+        <input class="no-vertical-margins project-password-input" id="password" type="password" placeholder="" /> <br/>
 
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/flickity.css" media="screen">
-    <link rel="stylesheet" href="css/font-awesome-all.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Javascript -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script>
-    <script src="js/scripts.js"></script>
-
-
-    <!-- Navbar start -->
-    <nav class="navigation">
-        <div class="nav-contents">
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="assets/logo-color.png">
-                </a>
-            </div>
-            <a class="nav-link" target="_self" href="about.html">About</a>
-            <a class="nav-link" target="_blank" href="resume.pdf">Résumé</a>
-            <a class="nav-link" target="_self" href="gallery.html">Gallery</a>
-            <a class="nav-link" target="_self" href="index.html">Work</a>
-        </div>
-    </nav>
-    <!-- Navbar end  -->
-
-</head>
-
-<style>
-
-</style>
-
-<body>
-	
-	<div class="nav-phantom"></div>
-
-    <div class="width-limiter-900 dark-theme">
-
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        
-
-        <div class="center-everything">
-
-            <i class="fas fa-lock fa-2x highlight-translucent"></i>
-
-            <div class="spacer-small"></div>
-
-            <h3 id="header-text" class="no-vertical-margins highlight-translucent">Enter password to proceed.</h3>
-
-            <div class="spacer-small"></div>
-
-            <input class="no-vertical-margins project-password-input" id="password" type="password" placeholder="" /> <br/>
-
-            <button class="project-password-button" id="loginbutton" type="button">Proceed</button>
-            <p id="wrongPassword" style="display: none">wrong password</p>
-
-        </div>
-
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
+        <button class="project-password-button" id="loginbutton" type="button">Proceed</button>
+        <p id="wrongPassword" style="display: none">wrong password</p>
 
     </div>
-</body>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+</div>
+
 
 <script>'use strict';class Sha1{static hash(msg,options){const defaults={msgFormat:'string',outFormat:'hex'};const opt=Object.assign(defaults,options);switch(opt.msgFormat){default:case 'string':msg=utf8Encode(msg);break;case 'hex-bytes':msg=hexBytesToString(msg);break;}
 const K=[0x5a827999,0x6ed9eba1,0x8f1bbcdc,0xca62c1d6];const H=[0x67452301,0xefcdab89,0x98badcfe,0x10325476,0xc3d2e1f0];msg+=String.fromCharCode(0x80);const l=msg.length/4+2;const N=Math.ceil(l/16);const M=new Array(N);for(let i=0;i<N;i++){M[i]=new Array(16);for(let j=0;j<16;j++){M[i][j]=(msg.charCodeAt(i*64+j*4+0)<<24)|(msg.charCodeAt(i*64+j*4+1)<<16)|(msg.charCodeAt(i*64+j*4+2)<<8)|(msg.charCodeAt(i*64+j*4+3)<<0);}}
@@ -141,16 +78,3 @@ if(typeof module!='undefined'&&module.exports)module.exports=Sha1;</script>
     });
     $("#password").focus();
 </script>
-
-
-
-<footer>
-    <div>
-        <a href="mailto:jesse@jessezwu.com"><i class="fas fa-lg fa-envelope"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/jesse-z-wu/"><i class="fab fa-lg fa-linkedin"></i></a>
-    </div>
-    <div class="spacer-small"></div>
-    <div>Designed & Coded by Jesse Wu &copy; 2019 </div>
-</footer>
-
-</html>
