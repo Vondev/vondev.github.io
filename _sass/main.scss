@@ -1,3 +1,13 @@
+
+$font-heading: "Circular Std";
+$font-body: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$primary-color-dark: #00bab0;
+$dark-grey: #33333f;
+$base-font-size: 17px;
+
+
+
 * {
 	box-sizing: border-box;
 }
@@ -5,14 +15,12 @@
 body {
 	min-height: 900px;
 
-	background-color: #33333f;
-	font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background-color: $dark-grey;
+	font-family: $font-body;
 	font-weight: 400;
-	font-size: 13pt;
+	font-size: $base-font-size;
 	line-height: 1.7em;
 	color: #333333;
-
-	
 
 	-webkit-font-smoothing: antialiased; 
 	-apple-font-smoothing: antialiased; 
@@ -31,7 +39,7 @@ body {
 a {
 	font-weight: 700;
 	text-decoration: none;
-	color: #00bab0;
+	color: $primary-color-dark;
 }
 
 a:hover {
@@ -57,7 +65,7 @@ p {
 
 
 h1 {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-weight: 700;
 	font-size: 2.0em;
 	line-height: 1.6em;
@@ -66,13 +74,13 @@ h1 {
 }
 
 h2 {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-weight: 900;
 	font-size: 1.9em;
 	letter-spacing: -0.015em;
 	line-height: 1.6em;
 	/*color: #bbbbc5;*/
-	color: #33333f;
+	color: $dark-grey;
 	margin-bottom: 1em;
 }
 
@@ -154,7 +162,7 @@ hr {
 
 
 footer {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	padding: 50px;
 	background-color: rgba(0,0,0,0.1);
 	font-size: 12pt;
@@ -172,7 +180,7 @@ footer .fab, footer .fas{
 /* Controls */
 
 input {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-size: 12pt;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -182,7 +190,7 @@ input {
 
 
 button {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-size: 12pt;
 	box-sizing: border-box;
 	border: 0px;
@@ -259,7 +267,7 @@ button:hover {
 .dark-theme h4, 
 .dark-theme h5, 
 .dark-theme h6 {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	color: #ffffff;
 }
 
@@ -689,7 +697,7 @@ button:hover {
 	width: 100%;
 	height: 100px;
 
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	
 	margin: 0 auto;
 	background-color: rgba(40,40,50,1);
@@ -810,7 +818,7 @@ button:hover {
 	position: relative;
 	top: 50%;
 	transform: translateY(-60%);
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	text-align: left;
 	text-decoration: none;
 }
@@ -900,7 +908,7 @@ button:hover {
 
 .general-page-header {
 	color: rgba(210,210,255,0.7);
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	text-align: left;
 	font-size: 16pt;
 	line-height: 28pt;
@@ -939,7 +947,7 @@ button:hover {
 /* Index Cards */
 
 .card {
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 2em;
@@ -1069,14 +1077,14 @@ button:hover {
 
 .project-page-tags {
 	margin-bottom: 20px;
-	font-family: "Circular Std";
+	font-family: $font-heading;
 	font-size: 13pt;
 	color: rgba(0,0,0,0.35);
 }
 
 .project-page-title {
 	font-weight: 700;
-	color: #33333f;
+	color: $dark-grey;
 	margin-bottom: 25px;
 }
 
