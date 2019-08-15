@@ -1,0 +1,8 @@
+{% if include.customImagePath %}
+	{% assign filePath = include.customImagePath %}
+{% else %}
+	{% assign filePath = page.pageName | prepend: "assets/" | append: "/project-banner.png" %}
+{% endif %}
+
+
+<div class="project-page-banner" style="background-image: url({{ filePath }});"></div>

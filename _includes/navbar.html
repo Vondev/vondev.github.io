@@ -1,0 +1,18 @@
+<!-- Navbar -->
+<div>
+	<nav class="navigation">
+		<div class="nav-contents">
+			<span class="nav-logo">
+				<a href="/index.html">
+					<img src="/assets/logo-color.png">   
+				</a>
+			</span>
+			<a class="nav-link {% if page.selectMenuItem == "about" %}nav-link-selected{% endif %}" target="_self" href="/about.html">About</a>
+			<a class="nav-link {% if page.selectMenuItem == "resume" %}nav-link-selected{% endif %}" target="_blank" href="/resume.pdf">Résumé</a>
+			<a class="nav-link {% if page.selectMenuItem == "gallery" %}nav-link-selected{% endif %}" target="_self" href="/gallery.html">Gallery</a>
+			<a class="nav-link {% if page.selectMenuItem == "work" %}nav-link-selected{% endif %}" target="_self" href="/index.html">Work</a>
+		</div>
+	</nav>
+</div>
+
+<div class="nav-phantom"></div>

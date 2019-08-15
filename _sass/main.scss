@@ -788,6 +788,10 @@ button {
 		font-family: $font-heading;
 		text-align: left;
 		text-decoration: none;
+
+		a, .fab, .fas {
+			color: rgba(210,210,255,0.9);
+		}
 	}
 
 	&-heading {
@@ -816,10 +820,6 @@ button {
 		color: rgba(210,210,255,0.5);
 		max-width: 450px;
 		margin-bottom: 50px;
-	}
-
-	&-white-highlight {
-		color: rgba(210,210,255,0.9);
 	}
 
 
@@ -1391,15 +1391,12 @@ a.back-to-top:hover {
 			width: 100%;
 		}
 	}
-
 }
 
 
 
 
 /*-- Animations --*/
-
-
 
 @-webkit-keyframes gradientFlood {
 	0%{background-position:100%}
