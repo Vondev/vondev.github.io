@@ -1,5 +1,18 @@
-<a href="{{ include.name }}.html" class="card">
-	<div class="card-image" style="background-image: url(assets/{{ include.name }}/project-banner-thumbnail.png);"></div>
+{% if include.customImagePath %}
+	{% assign imagePath = include.customImagePath %}
+{% else %}
+	{% assign imagePath = include.name | prepend: "assets/" | append: "/project-banner-thumbnail.png" %}
+{% endif %}
+
+{% if include.customDestUrl %}
+	{% assign destUrl = include.customDestUrl %}
+{% else %}
+	{% assign destUrl = include.name | append: ".html" %}
+{% endif %}
+
+
+<a href="{{ destUrl }}" class="card">
+	<div class="card-image" style="background-image: url({{ imagePath }});"></div>
 	<div class="card-text">
 		<div class="card-text-tags">{{ include.tags }}</div> 
 		<div class="card-text-title">{{ include.title }}</div> 
