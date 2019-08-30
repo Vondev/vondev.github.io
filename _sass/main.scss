@@ -1,10 +1,10 @@
 
 $font-heading: "Circular Std";
-$font-body: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$font-body: "SF Pro Text", "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 $primary-neon-green: #00bab0;
 $dark-grey: #33333f;
-$base-font-size: 17px;
+$base-font-size: 16px;
 
 
 
@@ -385,6 +385,26 @@ button {
 	img {
 		width: 100%;
 	}
+}
+
+.image-auto-crop {
+    /*Use with image as background of container*/
+    width: 100%;
+    padding-top: 70%;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.image-auto-crop2 {
+    /*Use with image as background of container*/
+    width: 100%;
+    padding-top: 100%;
+    display: inline-block;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
